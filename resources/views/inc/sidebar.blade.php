@@ -51,8 +51,12 @@
                     <span>Grades</span>
                 </a>
             </li>
-            <li class="inactive">
-                <a href="/home">
+            @if($indicator == 'registrar')
+                <li class="active">
+            @else
+                <li>
+            @endif
+                <a href="/registrar">
                     <i class="material-icons">home</i>
                     <span>Registrar Setings</span>
                 </a>

@@ -42,6 +42,16 @@ Route::group(['prefix' => 'grades'], function(){
     Route::delete('/delete', 'GradesController@delete')->name('grades.delete');
 });
 
+Route::group(['prefix' => 'registrar'], function(){
+    Route::get('/', 'RegistrarController@index');
+    Route::get('/spesial', 'RegistrarController@spesial');
+    Route::get('/create', 'RegistrarController@create');
+    Route::post('/create/submit','RegistrarController@create_submit');
+    Route::get('/edit', 'RegistrarController@edit');
+    Route::put('/edit/submit','RegistrarController@edit_submit');
+    Route::delete('/delete', 'RegistrarController@delete')->name('registrar.delete');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
