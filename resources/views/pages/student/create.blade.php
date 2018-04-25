@@ -12,14 +12,14 @@
                     </h2>
                     <ul class="header-dropdown m-t--5 m-r--5">
                       <li>
-                          <a href="/barang/kategori">
+                          <a href="/student">
                               <button type="button" class="btn btn-danger waves-effect">Cancel</button>
                           </a>
                       </li>
                     </ul>
                 </div>
                 <div class="body col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
-                    {!! Form::open(['action' => 'Barang\KategoriController@create_submit', 'id'=>'form_validation', 'method'=>'POST','class'=>'form-horizontal']) !!}
+                    {!! Form::open(['action' => 'StudentController@create_submit', 'id'=>'form_validation', 'method'=>'POST','class'=>'form-horizontal']) !!}
                       <div class="row clearfix">
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                               {{Form::label('id','ID')}}

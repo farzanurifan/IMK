@@ -8,10 +8,10 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Kategori
+                        Student Masterlist
                     </h2>
                     <ul class="header-dropdown m-t--5 m-r--5">
-                        <a href="/barang/kategori/create">
+                        <a href="/student/create">
                             <button type="button" class="btn btn-success waves-effect">CREATE</button>
                         </a>
                     </ul>
@@ -32,7 +32,7 @@
                                         <td>111</td>
                                         <td>Lemari</td>
                                         <td>
-                                            <a href="/barang/kategori/edit">
+                                            <a href="/student/edit">
                                                 <i class="material-icons" style="font-size: 1.0em;">create</i>
                                                 edit
                                             </a>
