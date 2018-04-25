@@ -8,10 +8,10 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Student Masterlist
+                        All Classes
                     </h2>
                     <ul class="header-dropdown m-t--5 m-r--5">
-                        <a href="/student/create">
+                        <a href="/classes/create">
                             <button type="button" class="btn btn-success waves-effect">CREATE</button>
                         </a>
                     </ul>
@@ -22,22 +22,26 @@
                             <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
                                 <thead>
                                     <tr>
-                                        <th>ID Number</th>
-                                        <th>Full Name</th>
+                                        <th>Subject Code</th>
+                                        <th>Subject Description</th>
+                                        <th>Units</th>
+                                        <th>Major</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>111</td>
-                                        <td>Farza Nurifan</td>
+                                        <td>Human Computer Interactin</td>
+                                        <td>2</td>
+                                        <td>Yes</td>
                                         <td>
-                                            <a href="/student/edit">
+                                            <a href="/classes/edit">
                                                 <i class="material-icons" style="font-size: 1.0em;">create</i>
                                                 edit
                                             </a>
                                             <small>	&nbsp;&nbsp;</small>
-                                            <a href="{{ route('student.delete') }}" data-method="delete" data-token="{{csrf_token()}}" data-confirm="Are you sure?">
+                                            <a href="{{ route('classes.delete') }}" data-method="delete" data-token="{{csrf_token()}}" data-confirm="Are you sure?">
                                                 <i class="material-icons" style="font-size: 1.0em;">delete_sweep</i>
                                                 delete
                                             </a>

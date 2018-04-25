@@ -24,6 +24,14 @@ Route::group(['prefix' => 'student'], function(){
     Route::delete('/delete', 'StudentController@delete')->name('student.delete');
 });
 
+Route::group(['prefix' => 'classes'], function(){
+    Route::get('/', 'ClassesController@index');
+    Route::get('/create', 'ClassesController@create');
+    Route::post('/create/submit','ClassesController@create_submit');
+    Route::get('/edit', 'ClassesController@edit');
+    Route::put('/edit/submit','ClassesController@edit_submit');
+    Route::delete('/delete', 'ClassesController@delete')->name('classes.delete');
+});
 
 Auth::routes();
 
