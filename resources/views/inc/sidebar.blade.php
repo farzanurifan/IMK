@@ -35,8 +35,12 @@
                     <span>All Classes</span>
                 </a>
             </li>
-            <li class="inactive">
-                <a href="/home">
+            @if($indicator == 'enroll')
+                <li class="active">
+            @else
+                <li>
+            @endif
+                <a href="/enroll">
                     <i class="material-icons">home</i>
                     <span>Enroll Student</span>
                 </a>

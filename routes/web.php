@@ -33,6 +33,19 @@ Route::group(['prefix' => 'classes'], function(){
     Route::delete('/delete', 'ClassesController@delete')->name('classes.delete');
 });
 
+Route::group(['prefix' => 'enroll'], function(){
+    Route::get('/', 'EnrollController@index');
+    Route::get('/add', 'EnrollController@add');
+    Route::get('/view', 'EnrollController@view');
+    Route::get('/view2', 'EnrollController@view2');
+    Route::get('/view3', 'EnrollController@view3');
+    Route::get('/create', 'EnrollController@create');
+    Route::post('/create/submit','EnrollController@create_submit');
+    Route::get('/edit', 'EnrollController@edit');
+    Route::put('/edit/submit','EnrollController@edit_submit');
+    Route::delete('/delete', 'EnrollController@delete')->name('enroll.delete');
+});
+
 Route::group(['prefix' => 'grades'], function(){
     Route::get('/', 'GradesController@index');
     Route::get('/view', 'GradesController@view');
