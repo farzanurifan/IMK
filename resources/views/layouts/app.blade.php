@@ -5,7 +5,7 @@
 </head>
 
 <body class="theme-red">
-    @include('inc.pageloader')
+
 
     @include('inc.topbar')
 
