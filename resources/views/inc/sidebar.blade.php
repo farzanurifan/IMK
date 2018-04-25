@@ -15,7 +15,11 @@
     <div class="menu">
         <ul class="list">
             <li class="header">MAIN NAVIGATION</li>
-            <li class="active">
+                @if($indicator == 'student')
+                    <li class="active">
+                @else
+                    <li>
+                @endif
                 <a href="/student">
                     <i class="material-icons">home</i>
                     <span>Student Masterlist</span>
