@@ -35,6 +35,7 @@ Route::group(['prefix' => 'classes'], function(){
 
 Route::group(['prefix' => 'grades'], function(){
     Route::get('/', 'GradesController@index');
+    Route::get('/view', 'GradesController@view');
     Route::get('/create', 'GradesController@create');
     Route::post('/create/submit','GradesController@create_submit');
     Route::get('/edit', 'GradesController@edit');

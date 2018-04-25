@@ -11,6 +11,11 @@ class GradesController extends Controller
         return view('pages.grades.home', compact('indicator'));
     }
 
+    public function view() {
+        $indicator = 'grades';
+        return view('pages.grades.view', compact('indicator'));
+    }
+
     public function create() {
         $indicator = 'grades';
         return view('pages.grades.create',compact('indicator'));
@@ -27,7 +32,7 @@ class GradesController extends Controller
     }
 
     public function edit_submit() {
-        return redirect()->action('GradesController@index')->withSuccess('Grades Updated');
+        return redirect()->action('GradesController@view')->withSuccess('Grades Updated');
         // return route->back();
     }
 
