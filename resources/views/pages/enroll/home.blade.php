@@ -36,7 +36,7 @@
                                         <td>2</td>
                                         <td>Informatics</td>
                                         <td>
-                                            <a href="/grades/view2">
+                                            <a href="/enroll/view2">
                                                 <i class="material-icons" style="font-size: 1.0em;">create</i>
                                                 view
                                             </a>

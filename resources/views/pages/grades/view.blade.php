@@ -12,25 +12,27 @@
                     </h2>
                 </div>
                 <div class="body">
-                  <table>
-                      <tr>
-                          <th>ID Number</th>
-                          <td>: 111</td>
-                      </tr>
-                      <tr>
-                          <th>Student Name&emsp;</th>
-                          <td>: Farza Nurifan</td>
-                      </tr>
-                      <tr>
-                          <th>Course</th>
-                          <td>: Informatics</td>
-                      </tr>
-                      <tr>
-                          <th>Year</th>
-                          <td>: 2</td>
-                      </tr>
-                  </table>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>ID Number</th>
+                                <td>: 111</td>
+                            </tr>
+                            <tr>
+                                <th>Student Name&emsp;</th>
+                                <td>: Farza Nurifan</td>
+                            </tr>
+                            <tr>
+                                <th>Course</th>
+                                <td>: Informatics</td>
+                            </tr>
+                            <tr>
+                                <th>Year</th>
+                                <td>: 2</td>
+                            </tr>
+                        </table>
                     </div>
+                    <br>
                     <div class="table-responsive">
                         <div class="col-md-12">
                             <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
