@@ -41,7 +41,7 @@
                 <li>
             @endif
                 <a href="/enroll">
-                    <i class="material-icons">home</i>
+                    <i class="material-icons">person_add</i>
                     <span>Enroll Student</span>
                 </a>
             </li>
@@ -51,7 +51,7 @@
                 <li>
             @endif
                 <a href="/grades">
-                    <i class="material-icons">home</i>
+                    <i class="material-icons">grade</i>
                     <span>Grades</span>
                 </a>
             </li>
@@ -61,7 +61,7 @@
                 <li>
             @endif
                 <a href="/registrar">
-                    <i class="material-icons">home</i>
+                    <i class="material-icons">school</i>
                     <span>Registrar Setings</span>
                 </a>
             </li>
