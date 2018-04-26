@@ -38,7 +38,7 @@
                                             </a>
                                             <small>	&nbsp;&nbsp;</small>
                                             <a href="{{ route('student.delete') }}" data-method="delete" data-token="{{csrf_token()}}" data-confirm="Are you sure?">
-                                                <i class="material-icons" style="font-size: 1.0em;">delete_sweep</i>
+                                                <i class="material-icons" style="font-size: 1.0em;">remove_circle</i>
                                                 delete
                                             </a>
                                         </td>

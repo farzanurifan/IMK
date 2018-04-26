@@ -21,7 +21,7 @@
                 <li>
             @endif
                 <a href="/student">
-                    <i class="material-icons">home</i>
+                    <i class="material-icons">accessibility</i>
                     <span>Student Masterlist</span>
                 </a>
             </li>
