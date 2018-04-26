@@ -32,7 +32,7 @@
                                         <td>Informatics</td>
                                         <td>
                                             <a href="/grades/view">
-                                                <i class="material-icons" style="font-size: 1.0em;">create</i>
+                                                <i class="material-icons" style="font-size: 1.0em;">visibility</i>
                                                 view
                                             </a>
                                         </td>
