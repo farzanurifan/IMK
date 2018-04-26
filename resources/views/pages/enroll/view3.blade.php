@@ -32,7 +32,7 @@
                                         <td>Yes</td>
                                         <td>
                                             <a href="/enroll/add">
-                                                <i class="material-icons" style="font-size: 1.0em;">create</i>
+                                                <i class="material-icons" style="font-size: 1.0em;">add_circle</i>
                                                 add
                                             </a>
                                         </td>

@@ -32,7 +32,7 @@
                                 <tbody>
                                     <tr>
                                         <td>111</td>
-                                        <td>Human Computer Interactin</td>
+                                        <td>Human Computer Interaction</td>
                                         <td>2</td>
                                         <td>Yes</td>
                                         <td>
