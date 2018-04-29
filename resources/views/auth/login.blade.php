@@ -6,8 +6,8 @@
 <body class="login-page">
   <div class="login-box">
       <div class="logo">
-          <a href="javascript:void(0);">Web <b>SAI</b></a>
-          <small>Institut Teknologi Seopuluh Nopember</small>
+          <a href="javascript:void(0);">Web <b>SILAP</b></a>
+          <small>Pemerintah Kabupaten Mojokerto</small>
       </div>
       <div class="card">
           <div class="body">
