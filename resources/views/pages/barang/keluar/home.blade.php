@@ -28,8 +28,9 @@
                                         <th>Nama Barang</th>
                                         <th>Harga</th>
                                         <th>Satuan</th>
-                                        <th>Stok</th>
-                                        <th>Lokasi</th>
+                                        <th>Jumlah Keluar</th>
+                                        <th>Jumlah Harga</th>
+                                        <th>Kategori</th>
                                         <th>Tanggal ED</th>
                                         <th>Action</th>
                                     </tr>
@@ -37,11 +38,12 @@
                                 <tbody>
                                     <tr>
                                         <td>111</td>
-                                        <td>Barang 1</td>
-                                        <td>Rp 100.000,00</td>
+                                        <td>Barang satu dgdfgfd</td>
+                                        <td>Rp 100.000</td>
+                                        <td>Buah</td>
                                         <td>5</td>
-                                        <td>5</td>
-                                        <td>Lemari</td>
+                                        <td>Rp 500.000</td>
+                                        <td>Alat Tulis</td>
                                         <td>12 April 2018</td>
                                         <td>
                                             <a href="/barang/keluar/edit">
