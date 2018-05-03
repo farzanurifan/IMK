@@ -11,6 +11,8 @@
                         Barang Keluar
                     </h2>
                     <ul class="header-dropdown m-t--5 m-r--5">
+                        <button type="button" class="btn btn-primary waves-effect">Import Barang</button>
+                        <small>	&nbsp;&nbsp;</small>
                         <a href="/barang/keluar/create">
                             <button type="button" class="btn btn-success waves-effect">CREATE</button>
                         </a>

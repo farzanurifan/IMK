@@ -11,6 +11,8 @@
                         Data Barang
                     </h2>
                     <ul class="header-dropdown m-t--5 m-r--5">
+                        <button type="button" class="btn btn-primary waves-effect">Import Barang</button>
+                        <small>	&nbsp;&nbsp;</small>
                         <a href="/barang/databarang/create">
                             <button type="button" class="btn btn-success waves-effect">CREATE</button>
                         </a>
@@ -25,7 +27,6 @@
                                         <th>ID</th>
                                         <th>Nama Barang</th>
                                         <th>Satuan</th>
-                                        <th>Harga</th>
                                         <th>Merk</th>
                                         <th>Stok</th>
                                         <th>Lokasi</th>
@@ -39,7 +40,6 @@
                                         <td>111</td>
                                         <td>Barang 1</td>
                                         <td>5</td>
-                                        <td>Rp 100.000,00</td>
                                         <td>Suzuki</td>
                                         <td>5</td>
                                         <td>Lemari</td>
