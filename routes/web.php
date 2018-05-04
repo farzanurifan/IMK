@@ -145,10 +145,6 @@ Route::group(['prefix' => 'utilitas'], function(){
     // Halaman Utama
     Route::get('/id', 'Utilitas\UtilitasController@id');
     Route::get('/stok', 'Utilitas\UtilitasController@stok');
-    Route::get('/editbarangkeluar', 'Utilitas\UtilitasController@editbarangkeluar');
-    Route::get('/editbarangmasuk', 'Utilitas\UtilitasController@editbarangmasuk');
-    Route::get('/operasidata', 'Utilitas\UtilitasController@operasidata');
-    Route::get('/stokawal', 'Utilitas\UtilitasController@stokawal');
 
     // ID
     Route::group(['prefix' => 'id'], function(){
@@ -157,24 +153,6 @@ Route::group(['prefix' => 'utilitas'], function(){
         Route::get('/edit', 'Utilitas\IdController@edit');
         Route::put('/edit/submit','Utilitas\IdController@edit_submit');
         Route::delete('/delete', 'Utilitas\IdController@delete')->name('id.delete');
-    });
-
-    // Edit Barang Keluar
-    Route::group(['prefix' => 'editbarangkeluar'], function(){
-        Route::get('/create', 'Utilitas\EditBarangKeluarController@create');
-        Route::post('/create/submit','Utilitas\EditBarangKeluarController@create_submit');
-        Route::get('/edit', 'Utilitas\EditBarangKeluarController@edit');
-        Route::put('/edit/submit','Utilitas\EditBarangKeluarController@edit_submit');
-        Route::delete('/delete', 'Utilitas\EditBarangKeluarController@delete')->name('editbarangkeluar.delete');
-    });
-
-    // Edit Barang Masuk
-    Route::group(['prefix' => 'editbarangmasuk'], function(){
-        Route::get('/create', 'Utilitas\EditBarangMasukController@create');
-        Route::post('/create/submit','Utilitas\EditBarangMasukController@create_submit');
-        Route::get('/edit', 'Utilitas\EditBarangMasukController@edit');
-        Route::put('/edit/submit','Utilitas\EditBarangMasukController@edit_submit');
-        Route::delete('/delete', 'Utilitas\EditBarangMasukController@delete')->name('editbarangmasuk.delete');
     });
 });
 

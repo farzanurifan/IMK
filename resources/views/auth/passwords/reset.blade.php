@@ -1,6 +1,8 @@
-@extends('layouts.app')
-
-@section('content')
+<!DOCTYPE html>
+<html>
+<head>
+    @include('inc.head')
+</head>
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -67,4 +69,6 @@
         </div>
     </div>
 </div>
-@endsection
+@include('inc.script')
+</body>
+</html>
