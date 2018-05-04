@@ -11,10 +11,10 @@
                         Barang Masuk
                     </h2>
                     <ul class="header-dropdown m-t--5 m-r--5">
-                        <button type="button" class="btn btn-primary waves-effect">Import Barang</button>
+                        <button type="button" class="btn btn-primary waves-effect">Impor Barang</button>
                         <small>	&nbsp;&nbsp;</small>
                         <a href="/barang/masuk/create">
-                            <button type="button" class="btn btn-success waves-effect">CREATE</button>
+                            <button type="button" class="btn btn-success waves-effect">Tambah</button>
                         </a>
                     </ul>
                 </div>
@@ -32,7 +32,7 @@
                                         <th>Jumlah Harga</th>
                                         <th>Kategori</th>
                                         <th>Tanggal ED</th>
-                                        <th>Action</th>
+                                        <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -48,12 +48,12 @@
                                         <td>
                                             <a href="/barang/masuk/edit">
                                                 <i class="material-icons" style="font-size: 1.0em;">create</i>
-                                                edit
+                                                ubah
                                             </a>
                                             <small>	&nbsp;&nbsp;</small>
                                             <a href="{{ route('masuk.delete') }}" data-method="delete" data-token="{{csrf_token()}}" data-confirm="Are you sure?">
                                                 <i class="material-icons" style="font-size: 1.0em;">delete_sweep</i>
-                                                delete
+                                                hapus
                                             </a>
                                         </td>
                                     </tr>

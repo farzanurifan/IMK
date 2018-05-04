@@ -12,7 +12,7 @@
                     </h2>
                     <ul class="header-dropdown m-t--5 m-r--5">
                         <a href="/barang/lokasi/create">
-                            <button type="button" class="btn btn-success waves-effect">CREATE</button>
+                            <button type="button" class="btn btn-success waves-effect">Tambah</button>
                         </a>
                     </ul>
                 </div>
@@ -24,7 +24,7 @@
                                     <tr>
                                         <th>ID</th>
                                         <th>Nama Lokasi</th>
-                                        <th>Action</th>
+                                        <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -34,12 +34,12 @@
                                         <td>
                                             <a href="/barang/lokasi/edit">
                                                 <i class="material-icons" style="font-size: 1.0em;">create</i>
-                                                edit
+                                                ubah
                                             </a>
                                             <small>	&nbsp;&nbsp;</small>
                                             <a href="{{ route('lokasi.delete') }}" data-method="delete" data-token="{{csrf_token()}}" data-confirm="Are you sure?">
                                                 <i class="material-icons" style="font-size: 1.0em;">delete_sweep</i>
-                                                delete
+                                                hapus
                                             </a>
                                         </td>
                                     </tr>

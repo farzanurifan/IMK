@@ -12,7 +12,7 @@
                     </h2>
                     <ul class="header-dropdown m-t--5 m-r--5">
                         <a href="/utilitas/id/create">
-                            <button type="button" class="btn btn-success waves-effect">CREATE</button>
+                            <button type="button" class="btn btn-success waves-effect">Tambah</button>
                         </a>
                     </ul>
                 </div>
@@ -26,7 +26,7 @@
                                         <th>User</th>
                                         <th>Nama</th>
                                         <th>Level</th>
-                                        <th>Action</th>
+                                        <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -38,12 +38,12 @@
                                         <td>
                                             <a href="/utilitas/id/edit">
                                                 <i class="material-icons" style="font-size: 1.0em;">create</i>
-                                                edit
+                                                ubah
                                             </a>
                                             <small>	&nbsp;&nbsp;</small>
                                             <a href="{{ route('id.delete') }}" data-method="delete" data-token="{{csrf_token()}}" data-confirm="Are you sure?">
                                                 <i class="material-icons" style="font-size: 1.0em;">delete_sweep</i>
-                                                delete
+                                                hapus
                                             </a>
                                         </td>
                                     </tr>

@@ -12,7 +12,7 @@
                     </h2>
                 </div>
                 <div class="body" style="text-align:center;">
-                        <button type="button" class="btn btn-primary waves-effect">Import Stok Awal</button>
+                        <button type="button" class="btn btn-primary waves-effect">Impor Stok Awal</button>
                         <br><br>
                         <a href="/utilitas/stok">
                             <button type="button" class="btn btn-danger waves-effect">Reset Stok</button>

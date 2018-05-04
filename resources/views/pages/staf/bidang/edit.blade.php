@@ -13,7 +13,7 @@
                     <ul class="header-dropdown m-t--5 m-r--5">
                       <li>
                           <a href="/staf/bidang">
-                              <button type="button" class="btn btn-danger waves-effect">Cancel</button>
+                              <button type="button" class="btn btn-danger waves-effect">Batal</button>
                           </a>
                       </li>
                     </ul>
