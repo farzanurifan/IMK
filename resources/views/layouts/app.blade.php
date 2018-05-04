@@ -4,7 +4,7 @@
     @include('inc.head')
 </head>
 
-<body class="theme-red">
+<body class="theme-blue">
     @include('inc.pageloader')
 
     @include('inc.topbar')

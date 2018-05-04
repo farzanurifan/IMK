@@ -1,3 +1,7 @@
+function hilang(){
+  $(".alert").fadeOut(500);
+};
+
 (function() {
 
   var laravel = {
@@ -66,5 +70,4 @@
   };
 
   laravel.initialize();
-
 })();
