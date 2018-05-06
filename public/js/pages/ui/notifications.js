@@ -5,8 +5,9 @@ $(function () {
         var animateEnter = $(this).data('animate-enter');
         var animateExit = $(this).data('animate-exit');
         var colorName = $(this).data('color-name');
+        var textContent = $(this).data('text-content');
 
-        showNotification(colorName, null, placementFrom, placementAlign, animateEnter, animateExit);
+        showNotification(colorName, textContent, placementFrom, placementAlign, animateEnter, animateExit);
     });
 });
 

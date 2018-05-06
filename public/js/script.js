@@ -1,73 +1,79 @@
-function hilang(){
-  $(".alert").fadeOut(500);
+window.onload=function(){
+  document.getElementById("autoClick").click();
 };
 
-(function() {
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 
-  var laravel = {
-    initialize: function() {
-      this.methodLinks = $('a[data-method]');
-      this.token = $('a[data-token]');
-      this.registerEvents();
-    },
+// (function() {
 
-    registerEvents: function() {
-      this.methodLinks.on('click', this.handleMethod);
-    },
+//   var laravel = {
+//     initialize: function() {
+//       this.methodLinks = $('a[data-method]');
+//       this.token = $('a[data-token]');
+//       this.registerEvents();
+//     },
 
-    handleMethod: function(e) {
-      var link = $(this);
-      var httpMethod = link.data('method').toUpperCase();
-      var form;
+//     registerEvents: function() {
+//       this.methodLinks.on('click', this.handleMethod);
+//     },
 
-      // If the data-method attribute is not PUT or DELETE,
-      // then we don't know what to do. Just ignore.
-      if ( $.inArray(httpMethod, ['PUT', 'DELETE']) === - 1 ) {
-        return;
-      }
+//     handleMethod: function(e) {
+//       var link = $(this);
+//       var httpMethod = link.data('method').toUpperCase();
+//       var form;
 
-      // Allow user to optionally provide data-confirm="Are you sure?"
-      if ( link.data('confirm') ) {
-        if ( ! laravel.verifyConfirm(link) ) {
-          return false;
-        }
-      }
+//       // If the data-method attribute is not PUT or DELETE,
+//       // then we don't know what to do. Just ignore.
+//       if ( $.inArray(httpMethod, ['PUT', 'DELETE']) === - 1 ) {
+//         return;
+//       }
 
-      form = laravel.createForm(link);
-      form.submit();
+//       // Allow user to optionally provide data-confirm="Are you sure?"
+//       if ( link.data('confirm') ) {
+//         if ( ! laravel.verifyConfirm(link) ) {
+//           return false;
+//         }
+//       }
 
-      e.preventDefault();
-    },
+//       form = laravel.createForm(link);
+//       form.submit();
 
-    verifyConfirm: function(link) {
-      return confirm(link.data('confirm'));
-    },
+//       e.preventDefault();
+//     },
 
-    createForm: function(link) {
-      var form =
-      $('<form>', {
-        'method': 'POST',
-        'action': link.attr('href')
-      });
+//     verifyConfirm: function(link) {
+//       return confirm(link.data('confirm'));
+//     },
 
-      var token =
-      $('<input>', {
-        'type': 'hidden',
-        'name': '_token',
-        'value': link.data('token')
-        });
+//     createForm: function(link) {
+//       var form =
+//       $('<form>', {
+//         'method': 'POST',
+//         'action': link.attr('href')
+//       });
 
-      var hiddenInput =
-      $('<input>', {
-        'name': '_method',
-        'type': 'hidden',
-        'value': link.data('method')
-      });
+//       var token =
+//       $('<input>', {
+//         'type': 'hidden',
+//         'name': '_token',
+//         'value': link.data('token')
+//         });
 
-      return form.append(token, hiddenInput)
-                 .appendTo('body');
-    }
-  };
+//       var hiddenInput =
+//       $('<input>', {
+//         'name': '_method',
+//         'type': 'hidden',
+//         'value': link.data('method')
+//       });
 
-  laravel.initialize();
-})();
+//       return form.append(token, hiddenInput)
+//                  .appendTo('body');
+//     }
+//   };
+
+//   laravel.initialize();
+// })();

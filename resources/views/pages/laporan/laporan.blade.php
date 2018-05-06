@@ -10,7 +10,7 @@
                     <h2>
                         Bidang
                     </h2>
-                    <ul class="header-dropdown m-r--5">
+                    <ul class="header-dropdown">
                         <li>
                             {{Form::select('bulan', ['J' => 'Januari', 'F' => 'February'])}}
                         </li>

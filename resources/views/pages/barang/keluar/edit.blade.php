@@ -10,7 +10,7 @@
                     <h2>
                         Edit Barang Keluar
                     </h2>
-                    <ul class="header-dropdown m-t--5 m-r--5">
+                    <ul class="header-dropdown m-t--5">
                       <li>
                           <a href="/barang/keluar">
                               <button type="button" class="btn btn-danger waves-effect">Batal</button>
@@ -100,10 +100,10 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('namaseksi','Tanggal ED')}}
                             </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                            <div class="col-sm-4">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','12 April 2018',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        <input type="text" class="datepicker form-control" placeholder="Please choose a date...">
                                     </div>
                                 </div>
                             </div>

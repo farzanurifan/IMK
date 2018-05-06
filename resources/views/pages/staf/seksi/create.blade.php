@@ -10,7 +10,7 @@
                     <h2>
                         Tambah Data Seksi
                     </h2>
-                    <ul class="header-dropdown m-t--5 m-r--5">
+                    <ul class="header-dropdown m-t--5">
                       <li>
                           <a href="/staf/seksi">
                               <button type="button" class="btn btn-danger waves-effect">Batal</button>
@@ -27,11 +27,12 @@
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                               <div class="form-group">
                                   <div class="form-line disabled">
-                                      @if(count($data) > 0)
+                                      {{-- @if(count($data) > 0)
                                           {{Form::text('id','',['class'=>'form-control', 'placeholder'=> $data->id+1, 'disabled' ])}}
                                       @else
                                           {{Form::text('id','',['class'=>'form-control', 'placeholder'=> '1', 'disabled' ])}}
-                                      @endif
+                                      @endif --}}
+                                      {{Form::text('id','',['class'=>'form-control', 'placeholder'=> '1', 'disabled' ])}}
                                   </div>
                               </div>
                           </div>

@@ -10,7 +10,7 @@
                     <h2>
                         Tambah Data Kategori
                     </h2>
-                    <ul class="header-dropdown m-t--5 m-r--5">
+                    <ul class="header-dropdown m-t--5">
                       <li>
                           <a href="/barang/kategori">
                               <button type="button" class="btn btn-danger waves-effect">Batal</button>

@@ -10,7 +10,7 @@
                     <h2>
                         Edit Data Bidang
                     </h2>
-                    <ul class="header-dropdown m-t--5 m-r--5">
+                    <ul class="header-dropdown m-t--5">
                       <li>
                           <a href="/staf/bidang">
                               <button type="button" class="btn btn-danger waves-effect">Batal</button>
@@ -19,7 +19,7 @@
                     </ul>
                 </div>
                 <div class="body col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
-                    {!! Form::open(['action' => ['Staf\BidangController@edit_submit',$data->id], 'id'=>'form_validation', 'method'=>'PUT','class'=>'form-horizontal']) !!}
+                    {!! Form::open(['action' => ['Staf\BidangController@edit_submit','$data->id'], 'id'=>'form_validation', 'method'=>'PUT','class'=>'form-horizontal']) !!}
                       <div class="row clearfix">
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                               {{Form::label('id','ID')}}
@@ -27,7 +27,7 @@
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                               <div class="form-group">
                                   <div class="form-line disabled">
-                                      {{Form::text('id',$data->id,['class'=>'form-control', 'placeholder'=>'5115100019', 'disabled' ])}}
+                                      {{Form::text('id','$data->id',['class'=>'form-control', 'placeholder'=>'5115100019', 'disabled' ])}}
                                   </div>
                               </div>
                           </div>
@@ -39,7 +39,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namabidang',$data->namabidang,['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namabidang','$data->namabidang',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('kepalabidang',$data->kepalabidang,['class'=>'form-control', 'required'])}}
+                                        {{Form::text('kepalabidang','$data->kepalabidang',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                             <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('nipkabid',$data->nipkabid,['class'=>'form-control', 'required'])}}
+                                        {{Form::text('nipkabid','$data->nipkabid',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>

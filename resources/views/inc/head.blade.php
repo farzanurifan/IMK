@@ -23,12 +23,6 @@
 <!-- Animation Css -->
 {!! Html::style('/plugins/animate-css/animate.css') !!}
 
-<!-- Custom Css -->
-{!! Html::style('/css/style.css') !!}
-
-<!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-{!! Html::style('/css/themes/all-themes.css') !!}
-
 <!-- JQuery DataTable Css -->
 {!! Html::style('/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css') !!}
 
@@ -37,3 +31,21 @@
 
 <!-- Bootstrap Select Css -->
 {!! Html::style('/plugins/bootstrap-select/css/bootstrap-select.css') !!}
+
+<!-- Dropzone Css -->
+{!! Html::style('/plugins/dropzone/dropzone.css') !!}
+
+<!-- Bootstrap Material Datetime Picker Css -->
+{!! Html::style('/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css') !!}
+
+<!-- Wait Me Css -->
+{!! Html::style('/plugins/waitme/waitMe.css') !!}
+
+    <!-- Morris Chart Css-->
+    <link href="plugins/morrisjs/morris.css" rel="stylesheet" />
+
+<!-- Custom Css -->
+{!! Html::style('/css/style.css') !!}
+
+<!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+{!! Html::style('/css/themes/all-themes.css') !!}

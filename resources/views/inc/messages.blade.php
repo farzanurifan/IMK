@@ -1,22 +1,31 @@
 @if(count($errors) > 0)
     @foreach($errors->all() as $error)
-        <div class="alert alert-danger alert-dismissible" role="alert">
-                <button type="button" class="close" aria-label="Close" onclick="hilang()"><span aria-hidden="true">&times;</span></button>
-            {{$error}}
-        </div>
+        <div class="jsdemo-notification-button" style="display: none;">
+            <button id="autoClick" type="button" class="btn btn-success btn-block waves-effect"
+                data-text-content="{{$error}}"
+                data-placement-from="top" data-placement-align="center"
+                data-animate-enter="" data-animate-exit="" data-color-name="alert-danger">
+            </button>
+        <div>
     @endforeach
 @endif
 
 @if(session('success'))
-    <div class="alert alert-success alert-dismissible" role="alert">
-        <button type="button" class="close" aria-label="Close" onclick="hilang()"><span aria-hidden="true">&times;</span></button>
-        {{session('success')}}
-    </div>
+    <div class="jsdemo-notification-button" style="display: none;">
+        <button id="autoClick" type="button" class="btn btn-success btn-block waves-effect"
+            data-text-content="{{session('success')}}"
+            data-placement-from="top" data-placement-align="center"
+            data-animate-enter="" data-animate-exit="" data-color-name="alert-success">
+        </button>
+    <div>
 @endif
 
 @if(session('error'))
-    <div class="alert alert-danger alert-dismissible" role="alert">
-        <button type="button" class="close" aria-label="Close" onclick="hilang()"><span aria-hidden="true">&times;</span></button>
-        {{session('error')}}
-    </div>
+    <div class="jsdemo-notification-button" style="display: none;">
+        <button id="autoClick" type="button" class="btn btn-success btn-block waves-effect"
+            data-text-content="{{session('error')}}"
+            data-placement-from="top" data-placement-align="center"
+            data-animate-enter="" data-animate-exit="" data-color-name="alert-danger">
+        </button>
+    <div>
 @endif

@@ -3,16 +3,16 @@
 @section('content')
 <div class="col-md-12">
     <!-- Basic Examples -->
-    <div class="row clearfix">
+    <div class="row clearfix js-sweetalert">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="header">
                     <h2>
                         Barang Masuk
                     </h2>
-                    <ul class="header-dropdown m-t--5 m-r--5">
-                        <button type="button" class="btn btn-primary waves-effect">Impor Barang</button>
-                        <small>	&nbsp;&nbsp;</small>
+                    <ul class="header-dropdown m-t--5">
+                        <button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#defaultModal">Impor Barang</button>
+                        <small>&nbsp;&nbsp;</small>
                         <a href="/barang/masuk/create">
                             <button type="button" class="btn btn-success waves-effect">Tambah</button>
                         </a>
@@ -46,15 +46,8 @@
                                         <td>Alat Tulis</td>
                                         <td>12 April 2018</td>
                                         <td>
-                                            <a href="/barang/masuk/edit">
-                                                <i class="material-icons" style="font-size: 1.0em;">create</i>
-                                                ubah
-                                            </a>
-                                            <small>	&nbsp;&nbsp;</small>
-                                            <a href="{{ route('masuk.delete') }}" data-method="delete" data-token="{{csrf_token()}}" data-confirm="Are you sure?">
-                                                <i class="material-icons" style="font-size: 1.0em;">delete_sweep</i>
-                                                hapus
-                                            </a>
+                                            <a class="btn btn-xs btn-default waves-effect" href="/barang/masuk/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                 </tbody>

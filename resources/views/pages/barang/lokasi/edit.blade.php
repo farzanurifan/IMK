@@ -10,7 +10,7 @@
                     <h2>
                         Edit Data Lokasi
                     </h2>
-                    <ul class="header-dropdown m-t--5 m-r--5">
+                    <ul class="header-dropdown m-t--5">
                       <li>
                           <a href="/barnag/lokasi">
                               <button type="button" class="btn btn-danger waves-effect">Batal</button>

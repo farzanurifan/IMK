@@ -4,7 +4,7 @@
     @include('inc.head')
 </head>
 
-<body class="theme-blue">
+<body class="theme-teal">
     @include('inc.pageloader')
 
     @include('inc.topbar')
@@ -14,14 +14,15 @@
     </section>
 
     <section class="content">
-        <div id="app">
-            <div class="col-md-12">
-                @include('inc.messages')
-            </div>
+        <div class="container-fluid">
             @yield('content')
         </div>
     </section>
 
+    @include('inc.modal')
+    
     @include('inc.script')
+    
+    @include('inc.messages')
 </body>
 </html>

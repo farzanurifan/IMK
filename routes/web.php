@@ -28,8 +28,8 @@ Route::group(['prefix' => 'staf'], function(){
     Route::group(['prefix' => 'bidang'], function(){
         Route::get('/create', 'Staf\BidangController@create');
         Route::post('/create/submit','Staf\BidangController@create_submit');
-        Route::get('/edit/{id}', 'Staf\BidangController@edit');
-        Route::put('/edit/{id}/submit','Staf\BidangController@edit_submit');
+        Route::get('/edit', 'Staf\BidangController@edit');
+        Route::put('/edit/submit','Staf\BidangController@edit_submit');
         Route::delete('/delete/{id}', 'Staf\BidangController@delete')->name('bidang.delete');
     });
 
@@ -37,8 +37,8 @@ Route::group(['prefix' => 'staf'], function(){
     Route::group(['prefix' => 'seksi'], function(){
         Route::get('/create', 'Staf\SeksiController@create');
         Route::post('/create/submit','Staf\SeksiController@create_submit');
-        Route::get('/edit/{id}', 'Staf\SeksiController@edit');
-        Route::put('/edit/{id}/submit','Staf\SeksiController@edit_submit');
+        Route::get('/edit', 'Staf\SeksiController@edit');
+        Route::put('/edit/submit','Staf\SeksiController@edit_submit');
         Route::delete('/delete/{id}', 'Staf\SeksiController@delete')->name('seksi.delete');
     });
 

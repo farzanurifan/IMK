@@ -3,14 +3,14 @@
 @section('content')
 <div class="col-md-12">
     <!-- Basic Examples -->
-    <div class="row clearfix">
+    <div class="row clearfix js-sweetalert">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="header">
                     <h2>
                         Lokasi
                     </h2>
-                    <ul class="header-dropdown m-t--5 m-r--5">
+                    <ul class="header-dropdown m-t--5">
                         <a href="/barang/lokasi/create">
                             <button type="button" class="btn btn-success waves-effect">Tambah</button>
                         </a>
@@ -32,15 +32,8 @@
                                         <td>111</td>
                                         <td>Lemari</td>
                                         <td>
-                                            <a href="/barang/lokasi/edit">
-                                                <i class="material-icons" style="font-size: 1.0em;">create</i>
-                                                ubah
-                                            </a>
-                                            <small>	&nbsp;&nbsp;</small>
-                                            <a href="{{ route('lokasi.delete') }}" data-method="delete" data-token="{{csrf_token()}}" data-confirm="Are you sure?">
-                                                <i class="material-icons" style="font-size: 1.0em;">delete_sweep</i>
-                                                hapus
-                                            </a>
+                                            <a class="btn btn-xs btn-default waves-effect" href="/barang/lokasi/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                 </tbody>
