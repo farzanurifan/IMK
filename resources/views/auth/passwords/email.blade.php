@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Forgot Password | Bootstrap Based Admin Template - Material Design</title>
+    <title>Lupa Kata Sandi</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
@@ -28,8 +28,8 @@
 <body class="fp-page">
     <div class="fp-box">
         <div class="logo">
-            <a href="javascript:void(0);">Admin<b>BSB</b></a>
-            <small>Admin BootStrap Based - Material Design</small>
+            <a href="/">Web<b>SILAP</b></a>
+            <small>Pemerintah Kabupaten Mojokerto</small>
         </div>
         <div class="card">
             <div class="body">
@@ -37,8 +37,7 @@
                     {{ csrf_field() }}
 
                     <div class="msg">
-                        Enter your email address that you used to register. We'll send you an email with your username and a
-                        link to reset your password.
+                            Masukkan alamat email Anda yang Anda gunakan untuk mendaftar. Kami akan mengirimi Anda email dengan nama pengguna dan tautan untuk menyetel ulang kata sandi Anda.
                     </div>
                     <div class="input-group{{ $errors->has('email') ? ' has-error' : '' }}">
                         <span class="input-group-addon">
@@ -55,10 +54,10 @@
                         </div>
                     </div>
 
-                    <button class="btn btn-block btn-lg bg-pink waves-effect" type="submit">RESET MY PASSWORD</button>
+                    <button class="btn btn-block btn-lg bg-pink waves-effect" type="submit">Setel ulang kata sandi saya</button>
 
                     <div class="row m-t-20 m-b--5 align-center">
-                        <a href="sign-in.html">Sign In!</a>
+                        <a href="/login">Masuk!</a>
                     </div>
                 </form>
             </div>

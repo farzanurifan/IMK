@@ -15,7 +15,7 @@
                     </a>
                     <ul class="dropdown-menu pull-right">
                         <li>
-                            <a href="#">
+                            <a href="/pengaturan">
                                 <i class="material-icons">settings_applications</i>
                                 Pegaturan
                             </a>

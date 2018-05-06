@@ -59,7 +59,7 @@
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
-                                    Reset Password
+                                    {{ __('Reset Password') }}
                                 </button>
                             </div>
                         </div>
@@ -70,5 +70,6 @@
     </div>
 </div>
 @include('inc.script')
+@include('inc.messages')
 </body>
 </html>

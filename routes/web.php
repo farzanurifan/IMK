@@ -16,6 +16,12 @@ Route::get('/', function () {
     return redirect('/login');
 });
 
+
+Route::get('/pengaturan', function () {
+    return view('pengaturan');
+});
+
+
 ////////////////////////////////////////////////////////////////////////////////
 
 Route::group(['prefix' => 'staf'], function(){

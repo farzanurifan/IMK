@@ -5,6 +5,6 @@
 @endif
     <a href="/home">
         <i class="material-icons">home</i>
-        <span>Home</span>
+        <span>Beranda</span>
     </a>
 </li>

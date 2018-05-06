@@ -31,7 +31,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                        <tr>
+                                        {{-- <tr>
                                                 <td>111</td>
                                                 <td>Ananda</td>
                                                 <td>123123</td>
@@ -41,7 +41,7 @@
                                                     <a class="btn btn-xs btn-default waves-effect" href="/staf/seksi/edit">Ubah</a>
                                                     <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                                 </td>
-                                            </tr>
+                                            </tr> --}}
                                     {{-- @foreach ($data as $baris)
                                         <tr>
                                             <td>{{$baris->id}}</td>
