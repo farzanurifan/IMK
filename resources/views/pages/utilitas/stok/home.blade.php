@@ -14,7 +14,7 @@
                 <div class="body" style="text-align:center;">
                         <button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#defaultModal">Impor Stok Awal</button>
                         <br><br>
-                        <button class="btn btn-danger waves-effect" data-type="confirm">Reset Stok</button>
+                        <button class="btn btn-danger waves-effect" data-type="cancel">Setel Ulang Stok</button>
                 </div>
             </div>
         </div>

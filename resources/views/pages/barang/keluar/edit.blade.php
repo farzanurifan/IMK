@@ -34,71 +34,71 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('namaseksi','Nama Barang')}}
+                                {{Form::label('namabarang','Nama Barang')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','Barang satu dgdfgfd',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namabarang','Barang satu dgdfgfd',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('namaseksi','Harga')}}
+                                {{Form::label('hargabarang','Harga')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','Rp 100.000',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::number('hargabarang','Rp 100.000',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('bidang_id','Satuan')}}
+                                {{Form::label('satuanbarang','Satuan')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                                {{Form::select('bidang_id', ['' => '-Pilih Kategori-', '1' => 'Buah', '2' => 'Lusin'], ['class' => 'form-control show-tick', 'required'])}}
+                                {{Form::select('satuanbarang', ['' => '-Pilih Kategori-', '1' => 'Buah', '2' => 'Lusin'], ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('namaseksi','Jumlah Keluar')}}
+                                {{Form::label('jumlahkeluar','Jumlah Keluar')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','5',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::number('jumlahkeluar','5',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('namaseksi','Jumlah Harga')}}
+                                {{Form::label('jumlahharga','Jumlah Harga')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','Rp 500.000',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('jumlahharga','Rp 500.000',['class'=>'form-control', 'disabled', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('bidang_id','Kategori')}}
+                                {{Form::label('kategori_id','Kategori')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                                {{Form::select('bidang_id', ['' => '-Pilih Kategori-', '1' => 'Alat Tulis', '2' => 'Dua'], ['class' => 'form-control show-tick', 'required'])}}
+                                {{Form::select('kategori_id', ['' => '-Pilih Kategori-', '1' => 'Alat Tulis', '2' => 'Dua'], ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('namaseksi','Tanggal ED')}}
+                                {{Form::label('tanggaled','Tanggal ED')}}
                             </div>
                             <div class="col-sm-4">
                                 <div class="form-group">
@@ -116,7 +116,7 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3">
-                                {!! Form::submit('Submit',['class'=>'btn btn-success m-t-15 waves-effect']) !!}
+                                {!! Form::submit('Kirim',['class'=>'btn btn-success m-t-15 waves-effect']) !!}
                             </div>
                         </div>
                     {!! Form::close() !!}

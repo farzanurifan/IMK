@@ -49,35 +49,46 @@ function showSuccessMessage() {
 
 function showConfirmMessage() {
     swal({
-        title: "Are you sure?",
-        text: "You will not be able to recover this imaginary file!",
+        title: "Apakah anda yakin?",
+        text: "Anda tidak akan bisa mengembalikan data yang dihapus!",
         type: "warning",
         showCancelButton: true,
-        confirmButtonColor: "#DD6B55",
-        confirmButtonText: "Yes, delete it!",
+        confirmButtonColor: "#F44336",
+        confirmButtonText: "Ya, Hapus Data",
+        cancelButtonText: "Tidak, Batalkan",
         closeOnConfirm: false
     }, function () {
-        swal("Deleted!", "Your imaginary file has been deleted.", "success");
+        swal({
+            title: "Terhapus!",
+            text: "Data telah terhapus.",
+            type: "success",
+            confirmButtonColor: "#2196F3"
+        }, function(){
+            location.reload();
+        });
     });
 }
 
 function showCancelMessage() {
     swal({
-        title: "Are you sure?",
-        text: "You will not be able to recover this imaginary file!",
+        title: "Apakah anda yakin?",
+        text: "Anda tidak akan bisa mengembalikan data yang disetel ulang!",
         type: "warning",
         showCancelButton: true,
-        confirmButtonColor: "#DD6B55",
-        confirmButtonText: "Yes, delete it!",
-        cancelButtonText: "No, cancel plx!",
+        confirmButtonColor: "#F44336",
+        confirmButtonText: "Ya, Setel Ulang",
+        cancelButtonText: "Tidak, Batalkan",
         closeOnConfirm: false,
         closeOnCancel: false
-    }, function (isConfirm) {
-        if (isConfirm) {
-            swal("Deleted!", "Your imaginary file has been deleted.", "success");
-        } else {
-            swal("Cancelled", "Your imaginary file is safe :)", "error");
-        }
+    }, function () {
+        swal({
+            title: "Tersetel Ulang!",
+            text: "Data telah tersetel ulang.",
+            type: "success",
+            confirmButtonColor: "#2196F3"
+        }, function(){
+            location.reload();
+        });
     });
 }
 

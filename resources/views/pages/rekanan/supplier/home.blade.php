@@ -12,7 +12,7 @@
                     </h2>
                     <ul class="header-dropdown m-t--5">
                         <a href="/rekanan/supplier/create">
-                            <button type="button" class="btn btn-success waves-effect">Tambah</button>
+                            <button type="button" class="btn bg-green waves-effect">Tambah</button>
                         </a>
                     </ul>
                 </div>
@@ -38,7 +38,458 @@
                                         <td>Surabaya</td>
                                         <td>9328919</td>
                                         <td>
-                                            <a class="btn btn-xs btn-default waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Ananda</td>
+                                        <td>Profesor</td>
+                                        <td>Surabaya</td>
+                                        <td>9328919</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/rekanan/supplier/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>

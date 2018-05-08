@@ -34,48 +34,48 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('namaseksi','Nama Rekanan')}}
+                                {{Form::label('namarekanan','Nama Rekanan')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namarekanan','',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row ">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('nipkasek','Pimpinan')}}
+                                {{Form::label('pimpinanrekanan','Pimpinan')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('nipkasek','',['class'=>'form-control', 'required'])}}
+                                        {{Form::text('pimpinanrekanan','',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row ">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('nipkasek','Alamat')}}
+                                {{Form::label('alamatrekanan','Alamat')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('nipkasek','',['class'=>'form-control', 'required'])}}
+                                        {{Form::text('alamatrekanan','',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row ">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('nipkasek','Nomor Telp.')}}
+                                {{Form::label('notelprekanan','Nomor Telp.')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('nipkasek','',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('notelprekanan','',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3">
-                                {!! Form::submit('Submit',['class'=>'btn btn-success m-t-15 waves-effect']) !!}
+                                {!! Form::submit('Kirim',['class'=>'btn btn-success m-t-15 waves-effect']) !!}
                             </div>
                         </div>
                     {!! Form::close() !!}

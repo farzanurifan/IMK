@@ -11,10 +11,10 @@
                         Data Barang
                     </h2>
                     <ul class="header-dropdown m-t--5">
-                        <button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#defaultModal">Impor Barang</button>
+                        <button type="button" class="btn bg-cyan waves-effect" data-toggle="modal" data-target="#defaultModal">Impor Barang</button>
                         <small>&nbsp;&nbsp;</small>
                         <a href="/barang/databarang/create">
-                            <button type="button" class="btn btn-success waves-effect">Tambah</button>
+                            <button type="button" class="btn bg-green waves-effect">Tambah</button>
                         </a>
                     </ul>
                 </div>
@@ -46,7 +46,7 @@
                                         <td>5</td>
                                         <td>12 April 2018</td>
                                         <td>
-                                            <a class="btn btn-xs btn-default waves-effect" href="/barang/databarang/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>

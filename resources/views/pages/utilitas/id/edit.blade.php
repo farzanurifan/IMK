@@ -76,7 +76,7 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3">
-                                {!! Form::submit('Submit',['class'=>'btn btn-success m-t-15 waves-effect']) !!}
+                                {!! Form::submit('Kirim',['class'=>'btn btn-success m-t-15 waves-effect']) !!}
                             </div>
                         </div>
                     {!! Form::close() !!}

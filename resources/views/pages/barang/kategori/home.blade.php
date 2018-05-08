@@ -12,7 +12,7 @@
                     </h2>
                     <ul class="header-dropdown m-t--5">
                         <a href="/barang/kategori/create">
-                            <button type="button" class="btn btn-success waves-effect">Tambah</button>
+                            <button type="button" class="btn bg-green waves-effect">Tambah</button>
                         </a>
                     </ul>
                 </div>
@@ -32,7 +32,7 @@
                                         <td>111</td>
                                         <td>Lemari</td>
                                         <td>
-                                            <a class="btn btn-xs btn-default waves-effect" href="/barang/kategori/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>

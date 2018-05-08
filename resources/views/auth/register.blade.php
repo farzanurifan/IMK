@@ -34,6 +34,7 @@
         <div class="card">
             <div class="body">
                 <form id="sign_up" method="POST" action="{{ route('register') }}">
+                    {{ csrf_field() }}
                     <div class="msg">Daftar anggota baru</div>
                     <div class="input-group{{ $errors->has('name') ? ' has-error' : '' }}">
                         <span class="input-group-addon">

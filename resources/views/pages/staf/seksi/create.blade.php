@@ -76,7 +76,7 @@
                             <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('nipkasek','',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('nipkasek','',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3">
-                                {!! Form::submit('Submit',['class'=>'btn btn-success m-t-15 waves-effect']) !!}
+                                {!! Form::submit('Kirim',['class'=>'btn btn-success m-t-15 waves-effect']) !!}
                             </div>
                         </div>
                     {!! Form::close() !!}

@@ -18,7 +18,7 @@
                             {{Form::select('tahun', ['L' => '2018', 'S' => '2019'])}}
                         </li>
                         <li>
-                            {{Form::submit('Submit',['class'=>'btn btn-success waves-effect'])}}
+                            {{Form::submit('Kirim',['class'=>'btn btn-success waves-effect'])}}
                         </li>
                     </ul>
                 </div>

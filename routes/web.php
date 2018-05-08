@@ -154,11 +154,8 @@ Route::group(['prefix' => 'utilitas'], function(){
 
     // ID
     Route::group(['prefix' => 'id'], function(){
-        Route::get('/create', 'Utilitas\IdController@create');
-        Route::post('/create/submit','Utilitas\IdController@create_submit');
         Route::get('/edit', 'Utilitas\IdController@edit');
         Route::put('/edit/submit','Utilitas\IdController@edit_submit');
-        Route::delete('/delete', 'Utilitas\IdController@delete')->name('id.delete');
     });
 });
 

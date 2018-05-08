@@ -27,6 +27,10 @@
             @include('inc.listsidebar.utilitas')
 
             @include('inc.listsidebar.admin')
+            
+            @if($indicator == 'pengaturan')
+                <li style="display:none" class="active">
+            @endif
         </ul>
     </div>
     <!-- #Menu -->
