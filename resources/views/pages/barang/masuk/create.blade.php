@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 col-md-offset-2 col-xs-offset-2 col-sm-offset-2 col-lg-offset-2">
+<div onload="myFunction()" class="col-md-8 col-xs-8 col-sm-8 col-lg-8 col-md-offset-2 col-xs-offset-2 col-sm-offset-2 col-lg-offset-2">
     <!-- Horizontal Layout -->
     <div class="row clearfix">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -20,7 +20,7 @@
                 </div>
                 <div class="body col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
                     {!! Form::open(['action' => 'Barang\MasukController@create_submit', 'id'=>'form_validation', 'method'=>'POST','class'=>'form-horizontal']) !!}
-                      <div class="row clearfix">
+                        <div class="row clearfix">
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                               {{Form::label('id','ID')}}
                           </div>
@@ -50,8 +50,9 @@
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
-                                    <div id="harga" class="form-line">
-                                        {{Form::number('hargabarang','1',['class'=>'form-control', 'required', 'autofocus'])}}
+                                    <div class="form-line">
+                                        <!-- {{Form::number('hargabarang','1',['class'=>'form-control', 'required', 'autofocus'])}} -->
+                                        <input id="harga" class="form-control" required="" autofocus="" name="hargabarang" type="number" value="0" id="hargabarang" aria-required="true" onchange="JumlahHarga()">
                                     </div>
                                 </div>
                             </div>
@@ -60,30 +61,32 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('satuanbarang','Satuan')}}
                             </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('satuanbarang', [null => '-Pilih Satuan-', '1' => 'Buah', '2' => 'Lusin'], null, ['class' => 'form-control show-tick', 'required'])}}
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                {{Form::select('satuanbarang', ['' => '-Pilih Kategori-', '1' => 'Satu', '2' => 'Dua'], ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label " style="text-align: left;margin-top:8px;" onload="JumlahHarga()">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label " style="text-align: left;margin-top:8px;" >
                                 {{Form::label('jumlahmasuk','Jumlah Masuk')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
-                                    <div id="jumlah" class="form-line">
-                                        {{Form::number('jumlahmasuk','1',['class'=>'form-control', 'required', 'autofocus'])}}
+                                    <div class="form-line">
+                                        <!-- {{Form::number('jumlahmasuk','1',['class'=>'form-control', 'required', 'autofocus'])}} -->
+                                        <input id="jumlah" class="form-control" required="" autofocus="" name="jumlahmasuk" type="number" value="0" id="jumlahmasuk" aria-required="true" onchange="JumlahHarga()">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div id="jumlahharga" class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('jumlahharga','Jumlah Harga')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('jumlahharga','',['class'=>'form-control', 'disabled', 'required', 'autofocus'])}}
+                                        <!-- {{Form::number('jumlahharga','',['class'=>'form-control', 'disabled', 'required', 'autofocus'])}} -->
+                                        <input id="jumlahharga" class="form-control" disabled="" required="" autofocus="" name="jumlahharga" type="number" value="0" id="jumlahharga" aria-required="true">
                                     </div>
                                 </div>
                             </div>
@@ -92,8 +95,8 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('kategori_id','Kategori')}}
                             </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('kategori_id', [null => '-Pilih Kategori-', '1' => 'Satu', '2' => 'Alat Potong'], null, ['class' => 'form-control show-tick', 'required'])}} 
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                {{Form::select('kategori_id', ['' => '-Pilih Kategori-', '1' => 'Satu', '2' => 'Alat Potong'], ['class' => 'form-control show-tick', 'required'])}} 
                             </div>
                         </div>
                         <div class="row clearfix">
@@ -126,6 +129,4 @@
     </div>
     <!-- #END# Horizontal Layout -->
 </div>
-<script>
-</script>
 @endsection

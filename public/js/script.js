@@ -9,9 +9,12 @@ d = n.getDate();
 document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 
 function JumlahHarga(){
+	console.log("Jumlah Harga di update");
 	jumlah = document.getElementById("jumlah").value;
+	// jumlah = 1;
 	harga = document.getElementById("harga").value;
 	jumlahharga = jumlah * harga;
+	console.log(jumlahharga);
 	document.getElementById("jumlahharga").value = jumlahharga;
 }
 
