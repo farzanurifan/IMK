@@ -33,22 +33,22 @@
                                     <tr>
                                         <td>111</td>
                                         <td>Ananda</td>
-                                        <td>Keuangan</td>
-                                        <td>987698766</td>
+                                        <td>123123</td>
+                                        <td>Uang</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
-                                        <td>Ananda</td>
-                                        <td>Keuangan</td>
-                                        <td>987698766</td>
-                                        <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="staf/bidang/edit">Ubah</a>
-                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
-                                        </td>
+                                            <td>111</td>
+                                            <td>Ananda</td>
+                                            <td>123123</td>
+                                            <td>Uang</td>
+                                            <td>
+                                                <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit">Ubah</a>
+                                                <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                            </td>
                                         </tr>
                                     {{-- @foreach ($data as $baris)
                                         <tr>
