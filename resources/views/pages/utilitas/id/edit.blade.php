@@ -164,25 +164,6 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('ppkomnip','PPKom / NIP')}}
-                            </div>
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        {{Form::text('ppkom','Farza',['class'=>'form-control', 'required'])}}
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        {{Form::number('nipppkom','657658',['class'=>'form-control', 'required'])}}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('skp2hpnotanggal','SK P2HP No/Tanggal')}}
                             </div>
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
