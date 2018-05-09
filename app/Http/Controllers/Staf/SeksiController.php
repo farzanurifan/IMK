@@ -23,7 +23,7 @@ class SeksiController extends Controller
     //   $data->kepalaseksi = $request->input('kepalaseksi');
     //   $data->nipkasek = $request->input('nipkasek');
     //   $data->save();
-      return redirect()->action('Staf\StafController@seksi')->withSuccess('New Seksi Added');
+      return redirect()->action('Staf\StafController@seksi')->withSuccess('Berhasil');
       // return route->back();
   }
 
@@ -41,7 +41,7 @@ class SeksiController extends Controller
     //   $data->kepalaseksi = $request->input('kepalaseksi');
     //   $data->nipkabid = $request->input('nipkabid');
     //   $data->save();
-      return redirect()->action('Staf\StafController@seksi')->withSuccess('Seksi Updated');
+      return redirect()->action('Staf\StafController@seksi')->withSuccess('Berhasil');
       // return route->back();
   }
 

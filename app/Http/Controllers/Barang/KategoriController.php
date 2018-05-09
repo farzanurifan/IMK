@@ -13,7 +13,7 @@ class KategoriController extends Controller
     }
 
     public function create_submit() {
-        return redirect()->action('Barang\BarangController@kategori')->withSuccess('New Kategori Added');
+        return redirect()->action('Barang\BarangController@kategori')->withSuccess('Berhasil');
         // return route->back();
     }
 
@@ -23,7 +23,7 @@ class KategoriController extends Controller
     }
 
     public function edit_submit() {
-        return redirect()->action('Barang\BarangController@kategori')->withSuccess('Kategori Updated');
+        return redirect()->action('Barang\BarangController@kategori')->withSuccess('Berhasil');
         // return route->back();
     }
 

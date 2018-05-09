@@ -13,7 +13,7 @@ class MasukController extends Controller
     }
 
     public function create_submit() {
-        return redirect()->action('Barang\BarangController@masuk')->withSuccess('New Barang Masuk Added');
+        return redirect()->action('Barang\BarangController@masuk')->withSuccess('Berhasil');
         // return route->back();
     }
 
@@ -23,7 +23,7 @@ class MasukController extends Controller
     }
 
     public function edit_submit() {
-        return redirect()->action('Barang\BarangController@masuk')->withSuccess('Barang Masuk Updated');
+        return redirect()->action('Barang\BarangController@masuk')->withSuccess('Berhasil');
         // return route->back();
     }
 

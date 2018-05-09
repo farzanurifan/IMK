@@ -13,7 +13,7 @@ class DataBarangController extends Controller
     }
 
     public function create_submit() {
-        return redirect()->action('Barang\BarangController@databarang')->withSuccess('New Data Barang Added');
+        return redirect()->action('Barang\BarangController@databarang')->withSuccess('Berhasil');
         // return route->back();
     }
 
@@ -23,7 +23,7 @@ class DataBarangController extends Controller
     }
 
     public function edit_submit() {
-        return redirect()->action('Barang\BarangController@databarang')->withSuccess('Data Barang Updated');
+        return redirect()->action('Barang\BarangController@databarang')->withSuccess('Berhasil');
         // return route->back();
     }
 

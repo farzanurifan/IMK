@@ -81,7 +81,7 @@ Route::group(['prefix' => 'pemasok'], function(){
     Route::post('/create/submit','Pemasok\PemasokController@create_submit');
     Route::get('/edit', 'Pemasok\PemasokController@edit');
     Route::put('/edit/submit','Pemasok\PemasokController@edit_submit');
-    Route::delete('/delete', 'Pemasok\PemasokController@pemasok')->name('supplier.delete');
+    // Route::delete('/delete', 'Pemasok\PemasokController@pemasok')->name('supplier.delete');
 });
 
 ////////////////////////////////////////////////////////////////////////////////

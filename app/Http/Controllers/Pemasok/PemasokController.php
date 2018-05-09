@@ -17,7 +17,7 @@ class PemasokController extends Controller
     }
 
     public function create_submit() {
-        return redirect()->action('Pemasok\PemasokController@pemasok')->withSuccess('New Supplier Added');
+        return redirect()->action('Pemasok\PemasokController@pemasok')->withSuccess('Berhasil');
         // return route->back();
     }
 
@@ -27,7 +27,7 @@ class PemasokController extends Controller
     }
 
     public function edit_submit() {
-        return redirect()->action('Pemasok\PemasokController@pemasok')->withSuccess('Supplier Updated');
+        return redirect()->action('Pemasok\PemasokController@pemasok')->withSuccess('Berhasil');
         // return route->back();
     }
 

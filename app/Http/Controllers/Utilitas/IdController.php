@@ -13,7 +13,7 @@ class IdController extends Controller
     }
 
     public function edit_submit() {
-        return redirect()->action('Utilitas\UtilitasController@id')->withSuccess('Id Updated');
+        return redirect()->action('Utilitas\UtilitasController@id')->withSuccess('Berhasil');
         // return route->back();
     }
 }

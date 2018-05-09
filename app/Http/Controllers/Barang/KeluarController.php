@@ -13,7 +13,7 @@ class KeluarController extends Controller
     }
 
     public function create_submit() {
-        return redirect()->action('Barang\BarangController@keluar')->withSuccess('New Barang Keluar Added');
+        return redirect()->action('Barang\BarangController@keluar')->withSuccess('Berhasil');
         // return route->back();
     }
 
@@ -23,7 +23,7 @@ class KeluarController extends Controller
     }
 
     public function edit_submit() {
-        return redirect()->action('Barang\BarangController@keluar')->withSuccess('Barang Keluar Updated');
+        return redirect()->action('Barang\BarangController@keluar')->withSuccess('Berhasil');
         // return route->back();
     }
 

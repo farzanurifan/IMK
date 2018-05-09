@@ -13,7 +13,7 @@ class LokasiController extends Controller
     }
 
     public function create_submit() {
-        return redirect()->action('Barang\BarangController@lokasi')->withSuccess('New Lokasi Added');
+        return redirect()->action('Barang\BarangController@lokasi')->withSuccess('Berhasil');
         // return route->back();
     }
 
@@ -23,7 +23,7 @@ class LokasiController extends Controller
     }
 
     public function edit_submit() {
-        return redirect()->action('Barang\BarangController@lokasi')->withSuccess('Lokasi Updated');
+        return redirect()->action('Barang\BarangController@lokasi')->withSuccess('Berhasil');
         // return route->back();
     }
 

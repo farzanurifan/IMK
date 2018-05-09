@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="checkbox" name="terms" id="terms" class="filled-in chk-col-green">
+                        <input type="checkbox" name="terms" id="terms" class="filled-in chk-col-teal">
                         <label for="terms">Data yang saya isi sudah benar</label>
                     </div>
 

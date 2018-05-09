@@ -22,7 +22,7 @@ class BidangController extends Controller
         //   $data->kepalabidang = $request->input('kepalabidang');
         //   $data->nipkabid = $request->input('nipkabid');
         //   $data->save();
-          return redirect()->action('Staf\StafController@bidang')->withSuccess('New Bidang Added');
+          return redirect()->action('Staf\StafController@bidang')->withSuccess('Berhasil');
           // return route->back();
       }
 
@@ -40,7 +40,7 @@ class BidangController extends Controller
         //   $data->kepalabidang = $request->input('kepalabidang');
         //   $data->nipkabid = $request->input('nipkabid');
         //   $data->save();
-          return redirect()->action('Staf\StafController@bidang')->withSuccess('Bidang Updated');
+          return redirect()->action('Staf\StafController@bidang')->withSuccess('Berhasil');
           // return route->back();
       }
 

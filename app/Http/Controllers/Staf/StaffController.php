@@ -13,7 +13,7 @@ class StaffController extends Controller
     }
 
     public function create_submit() {
-        return redirect()->action('Staf\StafController@staff')->withSuccess('New Staff Added');
+        return redirect()->action('Staf\StafController@staff')->withSuccess('Berhasil');
         // return route->back();
     }
 
@@ -23,7 +23,7 @@ class StaffController extends Controller
     }
 
     public function edit_submit() {
-        return redirect()->action('Staf\StafController@staff')->withSuccess('Staff Updated');
+        return redirect()->action('Staf\StafController@staff')->withSuccess('Berhasil');
         // return route->back();
     }
 
