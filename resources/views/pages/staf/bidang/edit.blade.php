@@ -27,7 +27,7 @@
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                               <div class="form-group">
                                   <div class="form-line disabled">
-                                      {{Form::text('id','$data->id',['class'=>'form-control', 'placeholder'=>'5115100019', 'disabled' ])}}
+                                      {{Form::text('id','111',['class'=>'form-control', 'placeholder'=>'5115100019', 'disabled' ])}} 
                                   </div>
                               </div>
                           </div>
@@ -39,7 +39,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namabidang','$data->namabidang',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namabidang','Ananda',['class'=>'form-control', 'required', 'autofocus'])}} 
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('kepalabidang','$data->kepalabidang',['class'=>'form-control', 'required'])}}
+                                        {{Form::text('kepalabidang','Keuangan',['class'=>'form-control', 'required'])}} 
                                     </div>
                                 </div>
                             </div>

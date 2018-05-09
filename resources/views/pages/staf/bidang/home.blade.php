@@ -33,8 +33,8 @@
                                     <tr>
                                         <td>111</td>
                                         <td>Ananda</td>
-                                        <td>123123</td>
-                                        <td>Uang</td>
+                                        <td>Keuangan</td> 
+                                        <td>987698766</td> 
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
@@ -43,8 +43,8 @@
                                     <tr>
                                             <td>111</td>
                                             <td>Ananda</td>
-                                            <td>123123</td>
-                                            <td>Uang</td>
+                                            <td>Keuangan</td> 
+                                            <td>987698766</td> 
                                             <td>
                                                 <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit">Ubah</a>
                                                 <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>

@@ -8,18 +8,18 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Edit Barang Keluar
+                        Tambah Data Barang
                     </h2>
                     <ul class="header-dropdown m-t--5">
                       <li>
-                          <a href="/barang/keluar">
+                          <a href="/barang/databarang">
                               <button type="button" class="btn btn-danger waves-effect">Batal</button>
                           </a>
                       </li>
                     </ul>
                 </div>
                 <div class="body col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
-                    {!! Form::open(['action' => 'Barang\KeluarController@edit_submit', 'id'=>'form_validation', 'method'=>'PUT','class'=>'form-horizontal']) !!}
+                    {!! Form::open(['action' => 'Barang\DataBarangController@create_submit', 'id'=>'form_validation', 'method'=>'POST','class'=>'form-horizontal']) !!}
                       <div class="row clearfix">
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                               {{Form::label('id','ID')}}
@@ -27,7 +27,7 @@
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                               <div class="form-group">
                                   <div class="form-line disabled">
-                                      {{Form::text('id','',['class'=>'form-control', 'placeholder'=>'111', 'disabled' ])}}
+                                      {{Form::text('id','',['class'=>'form-control', 'placeholder'=> '1', 'disabled' ])}}
                                   </div>
                               </div>
                           </div>
@@ -39,19 +39,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namabarang','Barang satu dgdfgfd',['class'=>'form-control', 'required', 'autofocus'])}}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('hargabarang','Harga')}}
-                            </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        {{Form::number('hargabarang','Rp 100.000',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namabarang','',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
@@ -61,39 +49,55 @@
                                 {{Form::label('satuanbarang','Satuan')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                                {{Form::select('satuanbarang', ['' => '-Pilih Kategori-', '1' => 'Buah', '2' => 'Lusin'], ['class' => 'form-control show-tick', 'required'])}}
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('jumlahkeluar','Jumlah Keluar')}}
-                            </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('jumlahkeluar','5',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('satuanbarang','',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('jumlahharga','Jumlah Harga')}}
+                                {{Form::label('merkbarang','Merk')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('jumlahharga','Rp 500.000',['class'=>'form-control', 'disabled', 'required', 'autofocus'])}}
+                                        {{Form::text('merkbarang','',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('kategori_id','Kategori')}}
+                                {{Form::label('stokbarang','Stok')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                                {{Form::select('kategori_id', ['' => '-Pilih Kategori-', '1' => 'Alat Tulis', '2' => 'Alat Potong'], ['class' => 'form-control show-tick', 'required'])}} 
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::number('stokbarang','',['class'=>'form-control', 'required', 'autofocus'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('lokasi_id','Lokasi')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                {{Form::select('lokasi_id', ['' => '-Pilih Lokasi-', '1' => 'Lemari', '2' => 'Gudang'], ['class' => 'form-control show-tick', 'required'])}}
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('kuotabarang','Kuota')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::number('kuotabarang','',['class'=>'form-control', 'required', 'autofocus'])}}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row clearfix">
