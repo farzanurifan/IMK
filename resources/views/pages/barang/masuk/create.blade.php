@@ -26,9 +26,10 @@
                           </div>
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                               <div class="form-group">
-                                  <div class="form-line disabled">
-                                      {{Form::text('id','',['class'=>'form-control', 'placeholder'=> '1', 'disabled' ])}}
+                                  <div class="m-t-5">
+                                      {{Form::text('id','1',[ 'disabled' ])}}
                                   </div>
+                                  <small>*id otomatis terisi</small>
                               </div>
                           </div>
                         </div>
@@ -51,7 +52,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('hargabarang','0',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
+                                        {{Form::number('hargabarang','',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +72,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('jumlahmasuk','0',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
+                                        {{Form::number('jumlahmasuk','',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -82,9 +83,11 @@
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
-                                    <div class="form-line">
-                                        {{Form::number('jumlahharga',0,['class'=>'form-control', 'disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
-                                    </div>
+                                    <div class="m-t-5">
+                                        Rp
+                                        {{Form::number('jumlahharga',0,['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
+                                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <small>*jumlah harga otomatis terisi</small>
                                 </div>
                             </div>
                         </div>

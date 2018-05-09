@@ -17,10 +17,9 @@ Route::get('/', function () {
 });
 
 
-Route::get('/pengaturan', function () {
-    return view('pengaturan');
-});
+Route::get('/pengaturan', 'PengaturanController@pengaturan');
 
+Route::get('/pengaturan/apply', 'PengaturanController@apply');
 
 ////////////////////////////////////////////////////////////////////////////////
 

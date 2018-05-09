@@ -1,5 +1,5 @@
 @extends('layouts.app')
-{{$indicator='pengaturan'}}
+
 @section('content')
 <!-- Metarial Design Buttons -->
 <div class="row">
@@ -17,7 +17,7 @@
             </div>
             <div class="body">
                 <div class="button-demo">
-                    <button type="button" class="btn bg-red waves-effect">RED</button>
+                    <a href="/pengaturan/apply" type="button" class="btn bg-red waves-effect">RED</a>
                     <button type="button" class="btn bg-pink waves-effect">PINK</button>
                     <button type="button" class="btn bg-purple waves-effect">PURPLE</button>
                     <button type="button" class="btn bg-deep-purple waves-effect">DEEP PURPLE</button>
@@ -31,7 +31,7 @@
                     <button type="button" class="btn bg-lime waves-effect">LIME</button>
                     <button type="button" class="btn bg-yellow waves-effect">YELLOW</button>
                     <button type="button" class="btn bg-amber waves-effect">AMBER</button>
-                    <button type=em"button" class="btn bg-orange waves-effect">ORANGE</button>
+                    <button type="button" class="btn bg-orange waves-effect">ORANGE</button>
                     <button type="button" class="btn bg-deep-orange waves-effect">DEEP ORANGE</button>
                     <button type="button" class="btn bg-brown waves-effect">BROWN</button>
                     <button type="button" class="btn bg-grey waves-effect">GREY</button>

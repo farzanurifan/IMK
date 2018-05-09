@@ -11,7 +11,9 @@
                 {{-- <li><a id="date"></a></li> --}}
                 <li class="dropdown">
                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="material-icons">account_circle</i>
+                        <i class="material-icons m-r--5">account_circle</i>
+                        <i class="material-icons m-r--10">arrow_drop_down</i>
+                    </a>
                     </a>
                     <ul class="dropdown-menu pull-right">
                         <li>
