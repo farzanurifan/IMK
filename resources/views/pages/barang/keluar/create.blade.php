@@ -93,7 +93,7 @@
                                 {{Form::label('kategori_id','Kategori')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                                {{Form::select('kategori_id', ['' => '-Pilih Kategori-', '1' => 'Satu', '2' => 'Dua'], ['class' => 'form-control show-tick', 'required'])}}
+                                {{Form::select('kategori_id', ['' => '-Pilih Kategori-', '1' => 'Satu', '2' => 'Alat Potong'], ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
