@@ -11,7 +11,7 @@
                 </div>
             </div>
         </div>
-        <p>Please wait...</p>
+        <p>Harap Tunggu...</p>
     </div>
 </div>
 <!-- #END# Page Loader -->
