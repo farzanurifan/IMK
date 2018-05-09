@@ -21,16 +21,17 @@
                 <div class="body col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
                     {!! Form::open(['action' => 'Barang\KeluarController@create_submit', 'id'=>'form_validation', 'method'=>'POST','class'=>'form-horizontal']) !!}
                       <div class="row clearfix">
-                          <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                              {{Form::label('id','ID')}}
-                          </div>
-                          <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
-                              <div class="form-group">
-                                  <div class="form-line disabled">
-                                      {{Form::text('id','',['class'=>'form-control', 'placeholder'=> '1', 'disabled' ])}}
-                                  </div>
-                              </div>
-                          </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('id','ID')}}
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="m-t-5">
+                                        {{Form::text('id','1',[ 'disabled' ])}}
+                                    </div>
+                                    <small>*id otomatis terisi</small>
+                                </div>
+                            </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
@@ -45,13 +46,13 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div  class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('hargabarang','Harga')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('hargabarang','0',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
+                                        {{Form::number('hargabarang','',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -65,13 +66,13 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('jumlahkeluar','Jumlah Keluar')}}
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label " style="text-align: left;margin-top:8px;" >
+                                {{Form::label('jumlahmasuk','Jumlah Masuk')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('jumlahkeluar','0',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
+                                        {{Form::number('jumlahkeluar','',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -82,9 +83,11 @@
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
-                                    <div class="form-line">
-                                        {{Form::number('jumlahharga',0,['class'=>'form-control', 'disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
-                                    </div>
+                                    <div class="m-t-5">
+                                        Rp
+                                        {{Form::number('jumlahharga','',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
+                                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <small>*jumlah harga otomatis terisi</small>
                                 </div>
                             </div>
                         </div>

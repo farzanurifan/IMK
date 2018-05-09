@@ -21,17 +21,17 @@
                 <div class="body col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
                     {!! Form::open(['action' => 'Barang\MasukController@create_submit', 'id'=>'form_validation', 'method'=>'POST','class'=>'form-horizontal']) !!}
                         <div class="row clearfix">
-                          <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                              {{Form::label('id','ID')}}
-                          </div>
-                          <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
-                              <div class="form-group">
-                                  <div class="m-t-5">
-                                      {{Form::text('id','1',[ 'disabled' ])}}
-                                  </div>
-                                  <small>*id otomatis terisi</small>
-                              </div>
-                          </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('id','ID')}}
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="m-t-5">
+                                        {{Form::text('id','1',[ 'disabled' ])}}
+                                    </div>
+                                    <small>*id otomatis terisi</small>
+                                </div>
+                            </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
@@ -85,7 +85,7 @@
                                 <div class="form-group">
                                     <div class="m-t-5">
                                         Rp
-                                        {{Form::number('jumlahharga',0,['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
+                                        {{Form::number('jumlahharga','',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
                                     </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <small>*jumlah harga otomatis terisi</small>
                                 </div>
