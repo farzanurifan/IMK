@@ -65,7 +65,7 @@
                                 </tr>
                                 <tr>
                                     <td><b>SK P2HP No/Tanggal</b></td>
-                                    <td>050/030</td>
+                                    <td>050</td>
                                     <td>2 Januari 2018</td>
                                 </tr>
                                 <tr>

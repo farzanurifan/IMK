@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 col-md-offset-2 col-xs-offset-2 col-sm-offset-2 col-lg-offset-2">
+<div class="col-md-10 col-xs-10 col-sm-10 col-lg-10 col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
     <!-- Horizontal Layout -->
     <div class="row clearfix">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="header">
                     <h2>
-                        Edit User
+                        Edit Identitas
                     </h2>
                     <ul class="header-dropdown m-t--5">
                       <li>
@@ -21,7 +21,7 @@
                 <div class="body col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
                     {!! Form::open(['action' => 'Utilitas\IdController@edit_submit', 'id'=>'form_validation', 'method'=>'PUT','class'=>'form-horizontal']) !!}
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('instansiinduk','Instansi Induk')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('skpd','SKPD')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('namakantor','Nama Kantor')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('alamat','Alamat')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('kota','Kota')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
@@ -81,19 +81,19 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('nomortelepon','Nomor Telepon')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('nomortelepon','98873249',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('nomortelepon','98873249',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('penyimpanbarang','Penyimpan Barang')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
@@ -105,7 +105,7 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('kepalauptnip','Kepala UPT / NIP')}}
                             </div>
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
@@ -118,13 +118,13 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('nipkepalautp','657658',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('nipkepalautp','657658',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('ppkomnip','PPKom / NIP')}}
                             </div>
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
@@ -137,13 +137,13 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('nipppkom','657658',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('nipppkom','657658',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('p2hpnip','P2HP / NIP')}}
                             </div>
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
@@ -156,13 +156,13 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('nipp2hpnip','657658',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('nipp2hpnip','657658',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('ppkomnip','PPKom / NIP')}}
                             </div>
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
@@ -175,32 +175,32 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('nipppkom','657658',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('nipppkom','657658',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('skp2hpnotanggal','SK P2HP No/Tanggal')}}
                             </div>
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('skp2hpno','050/030',['class'=>'form-control', 'required'])}}
+                                        {{Form::text('skp2hpno','050',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('tanggal','2 Januari 2018',['class'=>'form-control', 'required'])}}
+                                        {{Form::date('tanggal', \Carbon\Carbon::createFromDate(2018,10,02)->format('Y-m-d'),['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('namauptupdt','Nama UPT/UPTD')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
@@ -212,7 +212,7 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('','Email')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
@@ -224,7 +224,7 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('singkatankantor','Singkatan Kantor')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
@@ -236,7 +236,7 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('provinsi','Provinsi')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">

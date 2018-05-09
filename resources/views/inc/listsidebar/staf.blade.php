@@ -27,7 +27,7 @@
         @else
             <li>
         @endif
-            <a href="/staf/staff">Staff</a>
+            <a href="/staf/staff">Staf</a>
         </li>
     </ul>
 </li>
