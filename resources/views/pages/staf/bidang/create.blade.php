@@ -65,7 +65,7 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('nipkabid','NIP Kabid')}}
                             </div>
-                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
                                         {{Form::number('nipkabid','',['class'=>'form-control', 'required'])}}

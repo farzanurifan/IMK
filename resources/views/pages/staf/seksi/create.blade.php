@@ -53,8 +53,8 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('bidang_id','Bidang')}}
                             </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                                {{Form::select('bidang_id', ['' => '-Pilih Bidang-', '1' => 'Satu', '2' => 'Dua'], ['class' => 'form-control show-tick', 'required'])}}
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
+                                {{Form::select('bidang_id', [null => '-Pilih Bidang-', '1' => 'Satu', '2' => 'Dua'], null, ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
@@ -73,7 +73,7 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('nipkasek','NIP Kasek')}}
                             </div>
-                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
                                         {{Form::number('nipkasek','',['class'=>'form-control', 'required'])}}
