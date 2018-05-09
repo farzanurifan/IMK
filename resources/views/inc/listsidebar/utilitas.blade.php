@@ -15,12 +15,12 @@
         @endif
             <a href="/utilitas/id">ID</a>
         </li>
-        @if($indicator == 'stok')
+        {{-- @if($indicator == 'stok')
             <li class="active">
         @else
             <li>
         @endif
             <a href="/utilitas/stok">STOK</a>
-        </li>
+        </li> --}}
     </ul>
 </li>

@@ -11,8 +11,8 @@
                         Data Barang
                     </h2>
                     <ul class="header-dropdown m-t--5">
-                        <button type="button" class="btn bg-cyan waves-effect" data-toggle="modal" data-target="#defaultModal">Impor Barang</button>
-                        <small>&nbsp;&nbsp;</small>
+                        {{-- <button type="button" class="btn bg-cyan waves-effect" data-toggle="modal" data-target="#defaultModal">Impor Barang</button>
+                        <small>&nbsp;&nbsp;</small> --}}
                         <a href="/barang/databarang/create">
                             <button type="button" class="btn bg-green waves-effect">Tambah</button>
                         </a>

@@ -49,11 +49,7 @@
                                 {{Form::label('satuanbarang','Satuan')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        {{Form::text('satuanbarang','5',['class'=>'form-control', 'required', 'autofocus'])}}
-                                    </div>
-                                </div>
+                                {{Form::select('satuan', ['' => '-Pilih Satuan-', '1' => 'Satu', '2' => 'Dua'], ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
