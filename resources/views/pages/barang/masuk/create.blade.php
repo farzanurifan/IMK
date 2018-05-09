@@ -106,7 +106,7 @@
                             <div class="col-sm-4">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="text" class="datepicker form-control" placeholder="Please choose a date...">
+                                        <input type="text" class="datepicker form-control" placeholder="Please choose a date..." required>
                                     </div>
                                 </div>
                             </div>
