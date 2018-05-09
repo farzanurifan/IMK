@@ -71,7 +71,7 @@
                             <label for="rememberme">Ingat Saya</label>
                         </div>
                         <div class="col-xs-4">
-                            <button class="btn btn-block bg-pink waves-effect" type="submit">MASUK</button>
+                            <button class="btn btn-block bg-green waves-effect" type="submit">MASUK</button>
                         </div>
                     </div>
                     <div class="row m-t-15 m-b--20">

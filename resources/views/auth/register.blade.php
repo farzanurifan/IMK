@@ -91,7 +91,7 @@
                         <label for="terms">Data yang saya isi sudah benar</label>
                     </div>
 
-                    <button class="btn btn-block btn-lg bg-pink waves-effect" type="submit">DAFTAR</button>
+                    <button class="btn btn-block btn-lg bg-green waves-effect" type="submit">DAFTAR</button>
 
                     <div class="m-t-25 m-b--5 align-center">
                         <a href="\login">Anda sudah mendaftar?</a>
