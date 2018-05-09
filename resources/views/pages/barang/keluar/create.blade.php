@@ -51,7 +51,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('hargabarang','',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::number('hargabarang','0',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('jumlahkeluar','',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::number('jumlahkeluar','0',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('jumlahharga','',['class'=>'form-control', 'disabled', 'required', 'autofocus'])}}
+                                        {{Form::number('jumlahharga',0,['class'=>'form-control', 'disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
                                     </div>
                                 </div>
                             </div>

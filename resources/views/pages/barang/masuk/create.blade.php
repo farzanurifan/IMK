@@ -51,8 +51,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <!-- {{Form::number('hargabarang','1',['class'=>'form-control', 'required', 'autofocus'])}} -->
-                                        <input id="harga" class="form-control" required="" autofocus="" name="hargabarang" type="number" value="0" id="hargabarang" aria-required="true" onchange="JumlahHarga()">
+                                        {{Form::number('hargabarang','0',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -72,8 +71,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <!-- {{Form::number('jumlahmasuk','1',['class'=>'form-control', 'required', 'autofocus'])}} -->
-                                        <input id="jumlah" class="form-control" required="" autofocus="" name="jumlahmasuk" type="number" value="0" id="jumlahmasuk" aria-required="true" onchange="JumlahHarga()">
+                                        {{Form::number('jumlahmasuk','0',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +84,6 @@
                                 <div class="form-group">
                                     <div class="form-line">
                                         {{Form::number('jumlahharga',0,['class'=>'form-control', 'disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
-                                        {{-- <input id="jumlahharga" class="form-control" disabled="" required="" autofocus="" name="jumlahharga" type="number" value="0" id="jumlahharga" aria-required="true"> --}}
                                     </div>
                                 </div>
                             </div>
