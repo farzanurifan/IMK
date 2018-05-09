@@ -79,7 +79,7 @@ function showCancelMessage() {
         confirmButtonText: "Ya, Setel Ulang",
         cancelButtonText: "Tidak, Batalkan",
         closeOnConfirm: false,
-        closeOnCancel: false
+        // closeOnCancel: false
     }, function () {
         swal({
             title: "Tersetel Ulang!",
