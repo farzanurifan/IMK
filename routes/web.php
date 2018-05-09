@@ -33,7 +33,8 @@ Route::group(['prefix' => 'staf'], function(){
     Route::group(['prefix' => 'bidang'], function(){
         Route::get('/create', 'Staf\BidangController@create');
         Route::post('/create/submit','Staf\BidangController@create_submit');
-        Route::get('/edit', 'Staf\BidangController@edit');
+        Route::get('/edit/111', 'Staf\BidangController@edit1');
+        Route::get('/edit/112', 'Staf\BidangController@edit2');
         Route::put('/edit/submit','Staf\BidangController@edit_submit');
         Route::delete('/delete/{id}', 'Staf\BidangController@delete')->name('bidang.delete');
     });

@@ -27,8 +27,8 @@
                                         <th>ID</th>
                                         <th>Nama Barang</th>
                                         <th>Harga</th>
-                                        <th>Satuan</th>
                                         <th>Jumlah Masuk</th>
+                                        <th>Satuan</th>
                                         <th>Jumlah Harga</th>
                                         <th>Kategori</th>
                                         <th>Tanggal ED</th>
@@ -37,20 +37,35 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>111</td>
-                                        <td>Barang satu dgdfgfd</td>
-                                        <td>Rp 100.000</td>
-                                        <td>Buah</td>
+                                        <td>201</td>
+                                        <td>Senheiser X5770A</td>
+                                        <td>Rp 810.000</td>
                                         <td>5</td>
-                                        <td>Rp 500.000</td>
-                                        <td>Alat Tulis</td>
-                                        <td>12 April 2018</td>
+                                        <td>Buah</td>
+                                        <td>Rp 5.670.000</td>
+                                        <td>Headset</td>
+                                        <td>13 Mei 2018</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/masuk/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>202</td>
+                                        <td>Steelseries 256</td>
+                                        <td>Rp 635.000</td>
+                                        <td>7</td>
+                                        <td>Buah</td>
+                                        <td>Rp 4.445.000</td>
+                                        <td>Mouse</td>
+                                        <td>19 Mei 2018</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/barang/masuk/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                 </tbody>
+
                             </table>
                         </div>
                     </div>

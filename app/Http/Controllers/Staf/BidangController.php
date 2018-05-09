@@ -27,10 +27,16 @@ class BidangController extends Controller
       }
 
       //public function edit($id) {
-        public function edit() {
+        public function edit1() {
         //   $data = StafBidang::find($id);
           $indicator = 'bidang';
           return view('pages.staf.bidang.edit',compact('indicator','data'));
+      }
+
+        public function edit2() {
+        //   $data = StafBidang::find($id);
+          $indicator = 'bidang';
+          return view('pages.staf.bidang.edit2',compact('indicator','data'));
       }
 
       //public function edit_submit(Request $request, $id) {

@@ -31,17 +31,28 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                        {{-- <tr>
-                                                <td>111</td>
-                                                <td>Ananda</td>
-                                                <td>123123</td>
-                                                <td>Uang</td>
-                                                <td>Uang</td>
+                                        <tr>
+                                                <td>101</td>
+                                                <td>Joko Wiranto</td>
+                                                <td>Makanan</td>
+                                                <td>Gizi</td>
+                                                <td>9888773998</td>
                                                 <td>
                                                     <a class="btn btn-xs bg-grey waves-effect" href="/staf/seksi/edit">Ubah</a>
                                                     <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                                 </td>
-                                            </tr> --}}
+                                            </tr>
+                                        <tr>
+                                                <td>102</td>
+                                                <td>Prabowo Susilo</td>
+                                                <td>Militer</td>
+                                                <td>Pertahanan</td>
+                                                <td>9888773997</td>
+                                                <td>
+                                                    <a class="btn btn-xs bg-grey waves-effect" href="/staf/seksi/edit">Ubah</a>
+                                                    <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                                </td>
+                                            </tr>
                                     {{-- @foreach ($data as $baris)
                                         <tr>
                                             <td>{{$baris->id}}</td>

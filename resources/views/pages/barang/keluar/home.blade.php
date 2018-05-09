@@ -37,14 +37,28 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>111</td>
-                                        <td>Barang satu dgdfgfd</td>
+                                        <td>211</td>
+                                        <td>Pensil Ajaib</td>
                                         <td>Rp 100.000</td>
                                         <td>Buah</td>
                                         <td>5</td>
                                         <td>Rp 500.000</td>
                                         <td>Alat Tulis</td>
-                                        <td>12 April 2018</td>
+                                        <td>18 April 2018</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/keluar/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>211</td>
+                                        <td>Susu Indomilk coklat</td>
+                                        <td>Rp 200.000</td>
+                                        <td>Buah</td>
+                                        <td>7</td>
+                                        <td>Rp 1.400.000</td>
+                                        <td>Makanan</td>
+                                        <td>28 April 2018</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/barang/keluar/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>

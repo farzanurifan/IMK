@@ -29,8 +29,24 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>111</td>
-                                        <td>Lemari</td>
+                                        <td>201</td>
+                                        <td>Elektronik</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>202</td>
+                                        <td>Makanan</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>203</td>
+                                        <td>Fashion</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>

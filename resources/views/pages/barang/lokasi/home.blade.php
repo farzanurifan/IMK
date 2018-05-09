@@ -29,8 +29,24 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>111</td>
+                                        <td>301</td>
                                         <td>Lemari</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/lokasi/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>302</td>
+                                        <td>Gudang</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/lokasi/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>303</td>
+                                        <td>Taman</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/barang/lokasi/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>

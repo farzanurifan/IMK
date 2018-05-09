@@ -32,21 +32,21 @@
                                 <tbody>
                                     <tr>
                                         <td>111</td>
-                                        <td>Ananda</td>
-                                        <td>Keuangan</td> 
-                                        <td>987698766</td> 
+                                        <td>Keuangan</td>
+                                        <td>Imam Mukhlas</td> 
+                                        <td>081269696699</td> 
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit/111">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                            <td>111</td>
-                                            <td>Ananda</td>
-                                            <td>Keuangan</td> 
-                                            <td>987698766</td> 
+                                            <td>112</td>
+                                            <td>Pendidikan</td>
+                                            <td>Sinbad</td> 
+                                            <td>088899565674</td> 
                                             <td>
-                                                <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit">Ubah</a>
+                                                <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit/112">Ubah</a>
                                                 <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                             </td>
                                         </tr>

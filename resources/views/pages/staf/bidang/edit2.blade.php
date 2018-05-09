@@ -27,7 +27,7 @@
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                               <div class="form-group">
                                   <div class="m-t-5">
-                                      {{Form::text('id','111',[ 'disabled' ])}}
+                                      {{Form::text('id','112',[ 'disabled' ])}}
                                   </div>
                               </div>
                           </div>
@@ -39,7 +39,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namabidang','Keuangan',['class'=>'form-control', 'required', 'autofocus'])}} 
+                                        {{Form::text('namabidang','Pendidikan',['class'=>'form-control', 'required', 'autofocus'])}} 
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('kepalabidang','Imam Mukhlas',['class'=>'form-control', 'required'])}} 
+                                        {{Form::text('kepalabidang','Sinbad',['class'=>'form-control', 'required'])}} 
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('nipkabid','081269696699',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('nipkabid','088899565674',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>

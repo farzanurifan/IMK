@@ -37,14 +37,28 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>111</td>
-                                        <td>Barang 1</td>
-                                        <td>5</td>
-                                        <td>Suzuki</td>
+                                        <td>1111</td>
+                                        <td>S9+</td>
+                                        <td>Buah</td>
+                                        <td>Samsung</td>
                                         <td>5</td>
                                         <td>Lemari</td>
                                         <td>5</td>
                                         <td>12 April 2018</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1112</td>
+                                        <td>iPhone X</td>
+                                        <td>Buah</td>
+                                        <td>Apple</td>
+                                        <td>8</td>
+                                        <td>Gudang</td>
+                                        <td>8</td>
+                                        <td>12 Mei 2018</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
