@@ -8,6 +8,13 @@ m = n.getMonth() + 1;
 d = n.getDate();
 document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 
+function JumlahHarga(){
+	jumlah = document.getElementById("jumlah").value;
+	harga = document.getElementById("harga").value;
+	jumlahharga = jumlah * harga;
+	document.getElementById("jumlahharga").value = jumlahharga;
+}
+
 // (function() {
 
 //   var laravel = {
