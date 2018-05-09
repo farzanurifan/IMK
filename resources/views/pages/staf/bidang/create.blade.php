@@ -26,13 +26,13 @@
                           </div>
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                               <div class="form-group">
-                                  <div class="form-line disabled">
+                                  <div class="m-t-5">
                                       {{-- @if(count($data) > 0)
                                           {{Form::text('id','',['class'=>'form-control', 'placeholder'=> $data->id+1, 'disabled' ])}}
                                       @else
-                                          {{Form::text('id','',['class'=>'form-control', 'placeholder'=> '1', 'disabled' ])}}
+                                          {{Form::text('id','1',[ 'disabled' ])}}
                                       @endif --}}
-                                      {{Form::text('id','',['class'=>'form-control', 'placeholder'=> '1', 'disabled' ])}}
+                                      {{Form::text('id','1',[ 'disabled' ])}}
                                   </div>
                               </div>
                           </div>
