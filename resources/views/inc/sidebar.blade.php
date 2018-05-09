@@ -18,7 +18,9 @@
 
             @include('inc.listsidebar.staf')
 
-            @include('inc.listsidebar.rekanan')
+            {{--@include('inc.listsidebar.rekanan')--}}
+
+            @include('inc.listsidebar.pemasok')
 
             @include('inc.listsidebar.barang')
 

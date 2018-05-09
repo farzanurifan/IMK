@@ -76,6 +76,17 @@ Route::group(['prefix' => 'rekanan'], function(){
 
 ////////////////////////////////////////////////////////////////////////////////
 
+Route::get('/pemasok', 'Pemasok\PemasokController@pemasok');
+Route::group(['prefix' => 'pemasok'], function(){
+    Route::get('/create', 'Pemasok\PemasokController@create');
+    Route::post('/create/submit','Pemasok\PemasokController@create_submit');
+    Route::get('/edit', 'Pemasok\PemasokController@edit');
+    Route::put('/edit/submit','Pemasok\PemasokController@edit_submit');
+    Route::delete('/delete', 'Pemasok\PemasokController@pemasok')->name('supplier.delete');
+});
+
+////////////////////////////////////////////////////////////////////////////////
+
 Route::group(['prefix' => 'barang'], function(){
     // Halaman Utama
     Route::get('/databarang', 'Barang\BarangController@databarang');
