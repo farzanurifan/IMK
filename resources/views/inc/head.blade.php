@@ -41,8 +41,8 @@
 <!-- Wait Me Css -->
 {!! Html::style('/plugins/waitme/waitMe.css') !!}
 
-    <!-- Morris Chart Css-->
-    <link href="plugins/morrisjs/morris.css" rel="stylesheet" />
+<!-- Morris Chart Css-->
+{!! Html::style('/plugins/morrisjs/morris.css') !!}
 
 <!-- Custom Css -->
 {!! Html::style('/css/style.css') !!}
