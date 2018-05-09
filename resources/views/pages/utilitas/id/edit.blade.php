@@ -20,50 +20,229 @@
                 </div>
                 <div class="body col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
                     {!! Form::open(['action' => 'Utilitas\IdController@edit_submit', 'id'=>'form_validation', 'method'=>'PUT','class'=>'form-horizontal']) !!}
-                      <div class="row clearfix">
-                          <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                              {{Form::label('id','ID')}}
-                          </div>
-                          <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
-                              <div class="form-group">
-                                  <div class="form-line disabled">
-                                      {{Form::text('id','',['class'=>'form-control', 'placeholder'=>'111', 'disabled' ])}}
-                                  </div>
-                              </div>
-                          </div>
-                        </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('namaseksi','User')}}
+                                {{Form::label('instansiinduk','Instansi Induk')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','1',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('instansiinduk','Pemerintak Kabupaten Mojokerto',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('namaseksi','Nama')}}
+                                {{Form::label('skpd','SKPD')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','Ananda',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('skpd','Dinas Kesehatan',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('namaseksi','Level')}}
+                                {{Form::label('namakantor','Nama Kantor')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','User',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namaseksi','Dinas Kota',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('alamat','Alamat')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('alamat','Jalan jalan di kota bandung, ketemu thanos',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('kota','Kota')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('kota','Mojokerto',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('nomortelepon','Nomor Telepon')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('nomortelepon','98873249',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('penyimpanbarang','Penyimpan Barang')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('penyimpanbarang','Thanos',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('kepalauptnip','Kepala UPT / NIP')}}
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('kepalaupt','Farza',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('nipkepalautp','657658',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('ppkomnip','PPKom / NIP')}}
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('ppkom','Farza',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('nipppkom','657658',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('p2hpnip','P2HP / NIP')}}
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('p2hp','Farza',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('nipp2hpnip','657658',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('ppkomnip','PPKom / NIP')}}
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('ppkom','Farza',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('nipppkom','657658',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('skp2hpnotanggal','SK P2HP No/Tanggal')}}
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('skp2hpno','050/030',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('tanggal','2 Januari 2018',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('namauptupdt','Nama UPT/UPTD')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('namauptupdt','Farza',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('','Email')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('email','Farza',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('singkatankantor','Singkatan Kantor')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('singkatankantor','Farza',['class'=>'form-control', 'required'])}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('provinsi','Provinsi')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::text('provinsi','Farza',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>

@@ -18,15 +18,17 @@
 
             @include('inc.listsidebar.staf')
 
-            @include('inc.listsidebar.rekanan')
+            {{--@include('inc.listsidebar.rekanan')--}}
+
+            @include('inc.listsidebar.pemasok')
 
             @include('inc.listsidebar.barang')
 
-            @include('inc.listsidebar.laporan')
+            {{--@include('inc.listsidebar.laporan')--}}
 
             @include('inc.listsidebar.utilitas')
 
-            @include('inc.listsidebar.admin')
+            {{--@include('inc.listsidebar.admin')--}}
             
             @if($indicator == 'pengaturan')
                 <li style="display:none" class="active">
