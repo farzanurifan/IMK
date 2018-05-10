@@ -26,41 +26,41 @@
                                     <tr>
                                         <th>ID</th>
                                         <th>Nama Barang</th>
-                                        <th>Satuan</th>
                                         <th>Merk</th>
                                         <th>Stok</th>
+                                        <th>Satuan</th>
                                         <th>Lokasi</th>
-                                        <th>Kuota</th>
+                                        <th>Kategori</th>
                                         <th>Tanggal ED</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>1111</td>
+                                        <td>1</td>
                                         <td>S9+</td>
-                                        <td>Buah</td>
                                         <td>Samsung</td>
                                         <td>5</td>
+                                        <td>Buah</td>
                                         <td>Lemari</td>
-                                        <td>5</td>
+                                        <td>Smartphone</td>
                                         <td>12 April 2018</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit/1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>1112</td>
+                                        <td>2</td>
                                         <td>iPhone X</td>
-                                        <td>Buah</td>
                                         <td>Apple</td>
                                         <td>8</td>
+                                        <td>Buah</td>
                                         <td>Gudang</td>
-                                        <td>8</td>
+                                        <td>Smartphone</td>
                                         <td>12 Mei 2018</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit/2">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>

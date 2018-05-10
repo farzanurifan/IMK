@@ -40,17 +40,9 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namabarang','Barang 1',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namabarang','S9+',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('satuanbarang','Satuan')}}
-                            </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('satuanbarang', [null => '-Pilih Satuan-', '1' => 'Buah', '2' => 'Lusin'], null, ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
@@ -60,7 +52,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('merkbarang','Suzuki',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('merkbarang','Samsung',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
@@ -79,20 +71,28 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('lokasi_id','Lokasi')}}
+                                {{Form::label('satuanbarang','Satuan')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('lokasi_id', [null => '-Pilih Lokasi-', '1' => 'Lemari', '2' => 'Gudang'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                {{Form::select('satuanbarang', ['1' => 'Buah', '2' => 'Lusin'], null, ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('kuotabarang','Kuota')}}
+                                {{Form::label('lokasi_id','Lokasi')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
+                                {{Form::select('lokasi_id', ['1' => 'Lemari', '2' => 'Gudang'], null, ['class' => 'form-control show-tick', 'required'])}}
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('kuotabarang','Kategori')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('kuotabarang','5',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('kuotabarang','Smartphone',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
