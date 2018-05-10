@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Daftar akun web SILAP</title>
+    <title>Daftar akun web SIPM</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
@@ -28,7 +28,7 @@
 <body class="signup-page">
     <div class="signup-box">
         <div class="logo">
-            <a href="/">Web<b>SILAP</b></a>
+            <a href="/">Web<b>SIPM</b></a>
             <small>Pemerintah Kabupaten Mojokerto</small>
         </div>
         <div class="card">
