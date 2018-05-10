@@ -159,7 +159,6 @@
                                 </div>
                             </div>
                         </div>
-                        <br>
                         <div class="row clearfix">
                             <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('kepalauptnip','Kepala UPT / NIP')}}
@@ -231,7 +230,7 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::date('tanggal', \Carbon\Carbon::createFromDate(2018,10,02)->format('Y-m-d'),['class'=>'form-control', 'required'])}}
+                                        {{Form::date('tanggal', \Carbon\Carbon::createFromDate(2018,10,02)->format('Y-m-d'),['class'=>'form-control', 'required', 'id'=> "tanggal"])}}
                                     </div>
                                     <div class="help-info">*bulan/tanggal/tahun</div>
                                 </div>

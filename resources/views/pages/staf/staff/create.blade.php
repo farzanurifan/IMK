@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Tambah Data Staff
+                        Tambah Data Staf
                     </h2>
                     <ul class="header-dropdown m-t--5">
                       <li>
@@ -62,7 +62,7 @@
                                 {{Form::label('seksi_id','Seksi')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('seksi_id', [null => '-Pilih Seksi-', '1' => 'Satu', '2' => 'Dua'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                {{Form::select('seksi_id', [null => '-Pilih Seksi-', '1' => 'Administrasi', '2' => 'Beasiswa'], null, ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3">
