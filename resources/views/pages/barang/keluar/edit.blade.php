@@ -40,7 +40,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namabarang','Barang satu dgdfgfd',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namabarang','Permen Milkita',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('hargabarang','100000',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
+                                        {{Form::number('hargabarang','1000',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('jumlahkeluar','5',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
+                                        {{Form::number('jumlahkeluar','3',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
                                 {{Form::label('satuanbarang','Satuan')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('satuanbarang', [null => '-Pilih Satuan-', '1' => 'Buah', '2' => 'Lusin'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                {{Form::select('satuanbarang', ['1' => 'Buah', '2' => 'Lusin'], null, ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
@@ -85,7 +85,7 @@
                                 <div class="form-group">
                                     <div class="m-t-5">
                                         Rp
-                                        {{Form::number('jumlahharga','500000',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
+                                        {{Form::number('jumlahharga','3000',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
                                     </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <small>*jumlah harga otomatis terisi</small>
                                 </div>
@@ -96,7 +96,7 @@
                                 {{Form::label('kategori_id','Kategori')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('kategori_id', [null => '-Pilih Kategori-', '1' => 'Satu', '2' => 'Alat Potong'], null, ['class' => 'form-control show-tick', 'required'])}} 
+                                {{Form::select('kategori_id', ['1' => 'Makanan', '2' => 'Smartphone', '3' => 'Mouse', '4' => 'Headset'], null, ['class' => 'form-control show-tick', 'required'])}} 
                             </div>
                         </div>
                         <div class="row clearfix">

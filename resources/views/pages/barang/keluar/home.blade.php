@@ -37,30 +37,30 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>211</td>
-                                        <td>Pensil Ajaib</td>
-                                        <td>Rp 100.000</td>
-                                        <td>5</td>
+                                        <td>1</td>
+                                        <td>Permen Milkita</td>
+                                        <td>Rp 1.000</td>
+                                        <td>3</td>
                                         <td>Buah</td>
-                                        <td>Rp 500.000</td>
-                                        <td>Alat Tulis</td>
+                                        <td>Rp 3.000</td>
+                                        <td>Makanan</td>
                                         <td>18 April 2018</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/keluar/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/keluar/edit/1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>211</td>
-                                        <td>Susu Indomilk coklat</td>
-                                        <td>Rp 200.000</td>
+                                        <td>2</td>
+                                        <td>Beng Beng</td>
+                                        <td>Rp 18.000</td>
                                         <td>7</td>
-                                        <td>Buah</td>
-                                        <td>Rp 1.400.000</td>
+                                        <td>Lusin</td>
+                                        <td>Rp 126.000</td>
                                         <td>Makanan</td>
                                         <td>28 April 2018</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/keluar/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/keluar/edit/2">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>

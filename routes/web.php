@@ -133,7 +133,8 @@ Route::group(['prefix' => 'barang'], function(){
     Route::group(['prefix' => 'keluar'], function(){
         Route::get('/create', 'Barang\KeluarController@create');
         Route::post('/create/submit','Barang\KeluarController@create_submit');
-        Route::get('/edit', 'Barang\KeluarController@edit');
+        Route::get('/edit/1', 'Barang\KeluarController@edit1');
+        Route::get('/edit/2', 'Barang\KeluarController@edit2');
         Route::put('/edit/submit','Barang\KeluarController@edit_submit');
         Route::delete('/delete', 'Barang\KeluarController@delete')->name('keluar.delete');
     });

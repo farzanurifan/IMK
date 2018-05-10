@@ -17,10 +17,15 @@ class KeluarController extends Controller
         // return route->back();
     }
 
-    public function edit() {
+    public function edit1() {
         $indicator = 'keluar';
         return view('pages.barang.keluar.edit',compact('indicator'));
     }
+    public function edit2() {
+        $indicator = 'keluar';
+        return view('pages.barang.keluar.edit2',compact('indicator'));
+    }
+
 
     public function edit_submit() {
         return redirect()->action('Barang\BarangController@keluar')->withSuccess('Berhasil');

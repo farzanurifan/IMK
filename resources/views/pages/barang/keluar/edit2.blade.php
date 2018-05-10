@@ -1,33 +1,33 @@
 @extends('layouts.app')
 
 @section('content')
-<div onload="myFunction()" class="col-md-8 col-xs-8 col-sm-8 col-lg-8 col-md-offset-2 col-xs-offset-2 col-sm-offset-2 col-lg-offset-2">
+<div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 col-md-offset-2 col-xs-offset-2 col-sm-offset-2 col-lg-offset-2">
     <!-- Horizontal Layout -->
     <div class="row clearfix">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="header">
                     <h2>
-                        Tambah Barang Masuk
+                        Edit Barang Keluar
                     </h2>
                     <ul class="header-dropdown m-t--5">
                       <li>
-                          <a href="/barang/masuk">
+                          <a href="/barang/keluar">
                               <button type="button" class="btn btn-danger waves-effect">Batal</button>
                           </a>
                       </li>
                     </ul>
                 </div>
                 <div class="body col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
-                    {!! Form::open(['action' => 'Barang\MasukController@create_submit', 'id'=>'form_validation', 'method'=>'POST','class'=>'form-horizontal']) !!}
-                        <div class="row clearfix">
+                    {!! Form::open(['action' => 'Barang\KeluarController@edit_submit', 'id'=>'form_validation', 'method'=>'PUT','class'=>'form-horizontal']) !!}
+                      <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('id','ID')}}
                             </div>
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="m-t-5">
-                                        {{Form::text('id','3',[ 'disabled' ])}}
+                                        {{Form::text('id','2',[ 'disabled' ])}}
                                     </div>
                                     <small>*id otomatis terisi</small>
                                 </div>
@@ -40,7 +40,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namabarang','',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namabarang','Beng Beng',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
@@ -52,19 +52,19 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('hargabarang','',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
+                                        {{Form::number('hargabarang','18000',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label " style="text-align: left;margin-top:8px;" >
-                                {{Form::label('jumlahmasuk','Jumlah Masuk')}}
+                                {{Form::label('jumlahkeluar','Jumlah Keluar')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('jumlahmasuk','',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
+                                        {{Form::number('jumlahkeluar','7',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
                                 {{Form::label('satuanbarang','Satuan')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('satuanbarang', [null => '-Pilih Kategori-', '1' => 'Satu', '2' => 'Dua'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                {{Form::select('satuanbarang', ['1' => 'Lusin', '2' => 'Buah'], null, ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
@@ -85,7 +85,7 @@
                                 <div class="form-group">
                                     <div class="m-t-5">
                                         Rp
-                                        {{Form::number('jumlahharga','',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
+                                        {{Form::number('jumlahharga','126000',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
                                     </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <small>*jumlah harga otomatis terisi</small>
                                 </div>
@@ -96,7 +96,7 @@
                                 {{Form::label('kategori_id','Kategori')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('kategori_id', [null => '-Pilih Kategori-', '1' => 'Headset', '2' => 'Smartphone', '3' => 'Mouse', '4' => 'Makanan'], null, ['class' => 'form-control show-tick', 'required'])}} 
+                                {{Form::select('kategori_id', ['1' => 'Makanan', '2' => 'Smartphone', '3' => 'Mouse', '4' => 'Headset'], null, ['class' => 'form-control show-tick', 'required'])}} 
                             </div>
                         </div>
                         <div class="row clearfix">
