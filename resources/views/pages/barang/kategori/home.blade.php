@@ -29,26 +29,32 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>201</td>
-                                        <td>Elektronik</td>
+                                        <td>1</td>
+                                        <td>Smartphone</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit/1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>202</td>
+                                        <td>2</td>
+                                        <td>Headset</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit/2">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr><tr>
+                                        <td>3</td>
+                                        <td>Mouse</td>
+                                        <td>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit/3">Ubah</a>
+                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
+                                        </td>
+                                    </tr><tr>
+                                        <td>4</td>
                                         <td>Makanan</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit">Ubah</a>
-                                            <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>203</td>
-                                        <td>Fashion</td>
-                                        <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/kategori/edit/4">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>

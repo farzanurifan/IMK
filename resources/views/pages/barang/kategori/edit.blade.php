@@ -40,7 +40,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namakategori','Alat Tulis',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namakategori','Smartphone',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>

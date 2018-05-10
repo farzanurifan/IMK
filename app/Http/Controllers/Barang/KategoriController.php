@@ -17,10 +17,25 @@ class KategoriController extends Controller
         // return route->back();
     }
 
-    public function edit() {
+
+    public function edit1() {
         $indicator = 'kategori';
         return view('pages.barang.kategori.edit',compact('indicator'));
     }
+    public function edit2() {
+        $indicator = 'kategori';
+        return view('pages.barang.kategori.edit2',compact('indicator'));
+    }
+    public function edit3() {
+        $indicator = 'kategori';
+        return view('pages.barang.kategori.edit3',compact('indicator'));
+    }
+    public function edit4() {
+        $indicator = 'kategori';
+        return view('pages.barang.kategori.edit4',compact('indicator'));
+    }
+
+
 
     public function edit_submit() {
         return redirect()->action('Barang\BarangController@kategori')->withSuccess('Berhasil');

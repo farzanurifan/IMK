@@ -111,7 +111,10 @@ Route::group(['prefix' => 'barang'], function(){
     Route::group(['prefix' => 'kategori'], function(){
         Route::get('/create', 'Barang\KategoriController@create');
         Route::post('/create/submit','Barang\KategoriController@create_submit');
-        Route::get('/edit', 'Barang\KategoriController@edit');
+        Route::get('/edit/1', 'Barang\KategoriController@edit1');
+        Route::get('/edit/2', 'Barang\KategoriController@edit2');
+        Route::get('/edit/3', 'Barang\KategoriController@edit3');
+        Route::get('/edit/4', 'Barang\KategoriController@edit4');
         Route::put('/edit/submit','Barang\KategoriController@edit_submit');
         Route::delete('/delete', 'Barang\KategoriController@delete')->name('kategori.delete');
     });
