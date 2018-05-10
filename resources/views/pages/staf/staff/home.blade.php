@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Staff
+                        Staf
                     </h2>
                     <ul class="header-dropdown m-t--5">
                         <a href="/staf/staff/create">
@@ -23,7 +23,7 @@
                                 <thead>
                                     <tr>
                                         <th>ID</th>
-                                        <th>Nama Staff</th>
+                                        <th>Nama Staf</th>
                                         <th>NIP</th>
                                         <th>Seksi</th>
                                         <th>Aksi</th>
