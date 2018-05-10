@@ -33,56 +33,57 @@
                                     <td colspan="2">Dinas Kota</td>
                                 </tr>
                                 <tr>
-                                    <td><b>Alamat</b></td>
-                                    <td colspan="2">Jalan jalan di kota bandung, ketemu thanos</td>
+                                    <td><b>Singkatan Kantor</b></td>
+                                    <td colspan="2">DinKot</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Nama UPT/UPTD</b></td>
+                                    <td colspan="2">Unit Kesehatan Kota</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Provinsi</b></td>
+                                    <td colspan="2">Jawa Timur</td>
                                 </tr>
                                 <tr>
                                     <td><b>Kota</b></td>
                                     <td colspan="2">Mojokerto</td>
                                 </tr>
                                 <tr>
+                                    <td><b>Alamat</b></td>
+                                    <td colspan="2">Keputih GG 1 19A Sukolilo Mojokerto</td>
+                                </tr>
+                                <tr>
                                     <td><b>Nomor Telepon</b></td>
-                                    <td colspan="2">98873249</td>
+                                    <td colspan="2">08977553744</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Email</b></td>
+                                    <td colspan="2">dinaskotamojokerto@gmail.com</td>
                                 </tr>
                                 <tr>
                                     <td><b>Penyimpan Barang</b></td>
-                                    <td colspan="2">Thanos</td>
+                                    <td>Farza Nurifan</td>
+                                    <td>1653746810</td>
                                 </tr>
                                 <tr>
                                     <td><b>Kepala UPT / NIP</b></td>
-                                    <td>Farza</td>
-                                    <td>657658</td>
+                                    <td>Fajri Salam</td>
+                                    <td>1653746811</td>
                                 </tr>
                                 <tr>
                                     <td><b>PPKom / NIP</b></td>
-                                    <td>Farza</td>
-                                    <td>657658</td>
+                                    <td>Ilham Febriyanto</td>
+                                    <td>1653746812</td>
                                 </tr>
                                 <tr>
                                     <td><b>P2HP / NIP</b></td>
-                                    <td>Farza</td>
-                                    <td>657658</td>
+                                    <td>Failaqul Haq</td>
+                                    <td>1653746813</td>
                                 </tr>
                                 <tr>
                                     <td><b>SK P2HP No/Tanggal</b></td>
                                     <td>050</td>
                                     <td>2 Januari 2018</td>
-                                </tr>
-                                <tr>
-                                    <td><b>Nama UPT/UPTD</b></td>
-                                    <td colspan="2">Farza</td>
-                                </tr>
-                                <tr>
-                                    <td><b>Email</b></td>
-                                    <td colspan="2">Farza</td>
-                                </tr>
-                                <tr>
-                                    <td><b>Singkatan Kantor</b></td>
-                                    <td colspan="2">Farza</td>
-                                </tr>
-                                <tr>
-                                    <td><b>Provinsi</b></td>
-                                    <td colspan="2">Farza</td>
                                 </tr>
                             </tbody>                            
                         </table>
