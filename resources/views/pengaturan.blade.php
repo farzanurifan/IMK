@@ -14,8 +14,9 @@
                         <button type="button" class="btn btn-success waves-effect">Kembali ke Beranda</button>
                     </a>
                 </ul>
-            </div>
+            </div>            
             <div class="body">
+                <p>*klik warna yang diinginkan</p>
                 <div class="button-demo">
                     <a href="/pengaturan/apply" type="button" class="btn bg-red waves-effect"><font color="#F44336">RED</font></a>
                     <a href="/pengaturan/apply" type="button" class="btn bg-pink waves-effect"><font color="#E91E63">PINK</font></a>
