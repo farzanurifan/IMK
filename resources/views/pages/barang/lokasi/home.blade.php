@@ -29,26 +29,26 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>301</td>
+                                        <td>1</td>
                                         <td>Lemari</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/lokasi/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/lokasi/edit/1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>302</td>
+                                        <td>2</td>
                                         <td>Gudang</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/lokasi/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/lokasi/edit/2">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>303</td>
+                                        <td>3</td>
                                         <td>Taman</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/lokasi/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/lokasi/edit/3">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>

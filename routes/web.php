@@ -143,7 +143,9 @@ Route::group(['prefix' => 'barang'], function(){
     Route::group(['prefix' => 'lokasi'], function(){
         Route::get('/create', 'Barang\LokasiController@create');
         Route::post('/create/submit','Barang\LokasiController@create_submit');
-        Route::get('/edit', 'Barang\LokasiController@edit');
+        Route::get('/edit/1', 'Barang\LokasiController@edit1');
+        Route::get('/edit/2', 'Barang\LokasiController@edit2');
+        Route::get('/edit/3', 'Barang\LokasiController@edit3');
         Route::put('/edit/submit','Barang\LokasiController@edit_submit');
         Route::delete('/delete', 'Barang\LokasiController@delete')->name('lokasi.delete');
     });

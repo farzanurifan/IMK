@@ -17,10 +17,19 @@ class LokasiController extends Controller
         // return route->back();
     }
 
-    public function edit() {
+    public function edit1() {
         $indicator = 'lokasi';
         return view('pages.barang.lokasi.edit',compact('indicator'));
     }
+    public function edit2() {
+        $indicator = 'lokasi';
+        return view('pages.barang.lokasi.edit2',compact('indicator'));
+    }
+    public function edit3() {
+        $indicator = 'lokasi';
+        return view('pages.barang.lokasi.edit3',compact('indicator'));
+    }
+
 
     public function edit_submit() {
         return redirect()->action('Barang\BarangController@lokasi')->withSuccess('Berhasil');
