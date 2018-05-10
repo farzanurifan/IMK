@@ -101,7 +101,8 @@ Route::group(['prefix' => 'barang'], function(){
     Route::group(['prefix' => 'databarang'], function(){
         Route::get('/create', 'Barang\DataBarangController@create');
         Route::post('/create/submit','Barang\DataBarangController@create_submit');
-        Route::get('/edit', 'Barang\DataBarangController@edit');
+        Route::get('/edit/1', 'Barang\DataBarangController@edit1');
+        Route::get('/edit/2', 'Barang\DataBarangController@edit2');
         Route::put('/edit/submit','Barang\DataBarangController@edit_submit');
         Route::delete('/delete', 'Barang\DataBarangController@delete')->name('databarang.delete');
     });

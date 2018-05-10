@@ -17,10 +17,15 @@ class DataBarangController extends Controller
         // return route->back();
     }
 
-    public function edit() {
+    public function edit1() {
         $indicator = 'databarang';
         return view('pages.barang.databarang.edit',compact('indicator'));
     }
+    public function edit2() {
+        $indicator = 'databarang';
+        return view('pages.barang.databarang.edit2',compact('indicator'));
+    }
+
 
     public function edit_submit() {
         return redirect()->action('Barang\BarangController@databarang')->withSuccess('Berhasil');
