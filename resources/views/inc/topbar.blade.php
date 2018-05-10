@@ -26,7 +26,7 @@
                         <li>
                             <a href="{{ route('logout') }}"
                                 onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-                                <i class="material-icons">call_made</i>
+                                <i class="material-icons">input</i>
                                 Keluar
                             </a>
         

@@ -26,30 +26,30 @@
                                         <th>Nama Seksi</th>
                                         <th>Bidang</th>
                                         <th>Kepala Seksi</th>
-                                        <th>NIP Kasek</th>
+                                        <th>NIP</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                         <tr>
-                                                <td>101</td>
+                                                <td>1</td>
+                                                <td>Administrasi</td>
+                                                <td>Keuangan</td>
                                                 <td>Joko Wiranto</td>
-                                                <td>Makanan</td>
-                                                <td>Gizi</td>
                                                 <td>9888773998</td>
                                                 <td>
-                                                    <a class="btn btn-xs bg-grey waves-effect" href="/staf/seksi/edit">Ubah</a>
+                                                    <a class="btn btn-xs bg-grey waves-effect" href="/staf/seksi/edit1">Ubah</a>
                                                     <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                                 </td>
                                             </tr>
                                         <tr>
-                                                <td>102</td>
+                                                <td>2</td>
+                                                <td>Beasiswa</td>
+                                                <td>Pendidikan</td>
                                                 <td>Prabowo Susilo</td>
-                                                <td>Militer</td>
-                                                <td>Pertahanan</td>
                                                 <td>9888773997</td>
                                                 <td>
-                                                    <a class="btn btn-xs bg-grey waves-effect" href="/staf/seksi/edit">Ubah</a>
+                                                    <a class="btn btn-xs bg-grey waves-effect" href="/staf/seksi/edit2">Ubah</a>
                                                     <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                                 </td>
                                             </tr>

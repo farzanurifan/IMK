@@ -27,7 +27,7 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="m-t-5">
-                                        {{Form::text('id','1',[ 'disabled' ])}}
+                                        {{Form::text('id','3',[ 'disabled' ])}}
                                     </div>
                                     <small>*id otomatis terisi</small>
                                 </div>
@@ -50,7 +50,7 @@
                                 {{Form::label('bidang_id','Bidang')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('bidang_id', [null => '-Pilih Bidang-', '1' => 'Satu', '2' => 'Dua'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                {{Form::select('bidang_id', [null => '-Pilih Bidang-', '1' => 'Keuangan', '2' => 'Pendidikan'], null, ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
@@ -67,7 +67,7 @@
                         </div>
                         <div class="row ">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('nipkasek','NIP Kasek')}}
+                                {{Form::label('nipkasek','NIP')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
