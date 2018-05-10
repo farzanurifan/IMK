@@ -26,7 +26,9 @@
 
             {{--@include('inc.listsidebar.laporan')--}}
 
-            @include('inc.listsidebar.utilitas')
+            {{--@include('inc.listsidebar.utilitas')--}}
+
+            @include('inc.listsidebar.instansi')
 
             {{--@include('inc.listsidebar.admin')--}}
             

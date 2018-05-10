@@ -170,6 +170,17 @@ Route::group(['prefix' => 'utilitas'], function(){
     });
 });
 
+////////////////////////////////////////////////////////////////////////////////
+
+Route::get('/instansi', 'Instansi\InstansiController@instansi');
+       
+Route::group(['prefix' => 'instansi'], function(){
+    Route::get('/edit', 'Instansi\InstansiController@edit');
+    Route::put('/edit/submit','Instansi\InstansiController@edit_submit');
+});
+
+////////////////////////////////////////////////////////////////////////////////
+
 
 // Admin
 Route::get('/admin', 'AdminController@admin');
