@@ -17,9 +17,14 @@ class StaffController extends Controller
         // return route->back();
     }
 
-    public function edit() {
+    public function edit1() {
         $indicator = 'staff';
-        return view('pages.staf.staff.edit',compact('indicator'));
+        return view('pages.staf.staff.edit1',compact('indicator'));
+    }
+
+    public function edit2() {
+        $indicator = 'staff';
+        return view('pages.staf.staff.edit2',compact('indicator'));
     }
 
     public function edit_submit() {

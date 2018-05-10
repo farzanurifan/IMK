@@ -24,29 +24,29 @@
                                     <tr>
                                         <th>ID</th>
                                         <th>Nama Bidang</th>
-                                        <th>KA. Bidang</th>
-                                        <th>NIP KABID</th>
+                                        <th>Kepala Bidang</th>
+                                        <th>NIP</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Keuangan</td>
                                         <td>Imam Mukhlas</td> 
-                                        <td>081269696699</td> 
+                                        <td>1269696699</td> 
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit/111">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                            <td>112</td>
+                                            <td>2</td>
                                             <td>Pendidikan</td>
-                                            <td>Sinbad</td> 
-                                            <td>088899565674</td> 
+                                            <td>Achmad Tommy Nawawawi</td> 
+                                            <td>8899565674</td> 
                                             <td>
-                                                <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit/112">Ubah</a>
+                                                <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit2">Ubah</a>
                                                 <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                             </td>
                                         </tr>

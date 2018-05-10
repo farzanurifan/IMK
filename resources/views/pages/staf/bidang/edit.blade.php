@@ -27,7 +27,7 @@
                           <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                               <div class="form-group">
                                   <div class="m-t-5">
-                                      {{Form::text('id','111',[ 'disabled' ])}}
+                                      {{Form::text('id','1',[ 'disabled' ])}}
                                   </div>
                               </div>
                           </div>
@@ -58,12 +58,12 @@
                         </div>
                         <div class="row ">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('nipkabid','NIP Kabid')}}
+                                {{Form::label('nipkabid','NIP')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('nipkabid','081269696699',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('nipkabid','1269696699',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>

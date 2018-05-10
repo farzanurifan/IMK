@@ -27,7 +27,7 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="m-t-5">
-                                        {{Form::text('id','1',[ 'disabled' ])}}
+                                        {{Form::text('id','2',[ 'disabled' ])}}
                                     </div>
                                     <small>*id otomatis terisi</small>
                                 </div>
@@ -40,7 +40,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','Administrasi',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namaseksi','Beasiswa',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                                 {{Form::label('bidang_id','Bidang')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('bidang_id', [null => '-Pilih Bidang-', '1' => 'Keuangan', '2' => 'Pendidikan'], '1', ['class' => 'form-control show-tick', 'required'])}}
+                                {{Form::select('bidang_id', [null => '-Pilih Bidang-', '1' => 'Keuangan', '2' => 'Pendidikan'], '2', ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="row clearfix">
@@ -60,7 +60,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('kepalaseksi','Joko Wiranto',['class'=>'form-control', 'required'])}}
+                                        {{Form::text('kepalaseksi','Prabowo Susilo',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('nipkasek','9888773998',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('nipkasek','9888773997',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>

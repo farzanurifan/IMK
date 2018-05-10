@@ -28,10 +28,17 @@ class SeksiController extends Controller
   }
 
   //public function edit($id) {
-    public function edit() {
+    public function edit1() {
     //   $data = StafSeksi::find($id);
       $indicator = 'seksi';
       return view('pages.staf.seksi.edit',compact('indicator'));
+  }
+
+   //public function edit($id) {
+    public function edit2() {
+    //   $data = StafSeksi::find($id);
+      $indicator = 'seksi';
+      return view('pages.staf.seksi.edit2',compact('indicator'));
   }
 
   //public function edit_submit(Request $request, $id) {
@@ -45,11 +52,4 @@ class SeksiController extends Controller
       // return route->back();
   }
 
-  //public function delete($id) {
-    public function delete() {
-    //   $data = StafSeksi::find($id);
-    //   $data->delete();
-      return redirect()->action('Staf\StafController@seksi')->withError('Seksi Deleted');
-      // return route->back();
-  }
 }

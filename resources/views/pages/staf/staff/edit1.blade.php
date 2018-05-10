@@ -8,18 +8,18 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Edit Data Seksi
+                        Edit Data Staff
                     </h2>
                     <ul class="header-dropdown m-t--5">
                       <li>
-                          <a href="/staf/seksi">
+                          <a href="/staf/staff">
                               <button type="button" class="btn btn-danger waves-effect">Batal</button>
                           </a>
                       </li>
                     </ul>
                 </div>
                 <div class="body col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
-                    {!! Form::open(['action' => ['Staf\SeksiController@edit_submit','$data->id'], 'id'=>'form_validation', 'method'=>'PUT','class'=>'form-horizontal']) !!}
+                    {!! Form::open(['action' => 'Staf\StaffController@edit_submit', 'id'=>'form_validation', 'method'=>'PUT','class'=>'form-horizontal']) !!}
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('id','ID')}}
@@ -35,46 +35,34 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('namaseksi','Nama Seksi')}}
+                                {{Form::label('namastaff','Nama Staff')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','Administrasi',['class'=>'form-control', 'required', 'autofocus'])}}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('bidang_id','Bidang')}}
-                            </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('bidang_id', [null => '-Pilih Bidang-', '1' => 'Keuangan', '2' => 'Pendidikan'], '1', ['class' => 'form-control show-tick', 'required'])}}
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('kepalaseksi','Kepala Seksi')}}
-                            </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        {{Form::text('kepalaseksi','Joko Wiranto',['class'=>'form-control', 'required'])}}
+                                        {{Form::text('namastaff','Ucok Markucok',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row ">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('nipkasek','NIP')}}
+                                {{Form::label('nipstaff','NIP')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('nipkasek','9888773998',['class'=>'form-control', 'required'])}}
+                                        {{Form::number('nipstaff','1235678901',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('seksi_id','Seksi')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
+                                {{Form::select('seksi_id', [null => '-Pilih Seksi-', '1' => 'Administrasi', '2' => 'Beasiswa'], '1', ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3">

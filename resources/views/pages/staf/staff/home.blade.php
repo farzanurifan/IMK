@@ -31,22 +31,22 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>001</td>
-                                        <td>si Ucok</td>
-                                        <td>123567890</td>
-                                        <td>Bendahara</td>
+                                        <td>1</td>
+                                        <td>Ucok Markucok</td>
+                                        <td>1235678901</td>
+                                        <td>Administrasi</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/staff/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/staff/edit1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>002</td>
-                                        <td>Alibaba</td>
-                                        <td>098765321</td>
-                                        <td>Sekretaris</td>
+                                        <td>2</td>
+                                        <td>Jin Alibaba</td>
+                                        <td>0987653219</td>
+                                        <td>Beasiswa</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/staff/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/staff/edit2">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
