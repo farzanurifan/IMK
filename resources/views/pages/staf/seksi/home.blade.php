@@ -38,7 +38,7 @@
                                                 <td>Joko Wiranto</td>
                                                 <td>9888773998</td>
                                                 <td>
-                                                    <a class="btn btn-xs bg-grey waves-effect" href="/staf/seksi/edit1">Ubah</a>
+                                                    <a class="btn btn-xs bg-grey waves-effect" href="/staf/seksi/edit/1">Ubah</a>
                                                     <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                                 </td>
                                             </tr>
@@ -49,7 +49,7 @@
                                                 <td>Prabowo Susilo</td>
                                                 <td>9888773997</td>
                                                 <td>
-                                                    <a class="btn btn-xs bg-grey waves-effect" href="/staf/seksi/edit2">Ubah</a>
+                                                    <a class="btn btn-xs bg-grey waves-effect" href="/staf/seksi/edit/2">Ubah</a>
                                                     <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                                 </td>
                                             </tr>

@@ -36,7 +36,7 @@
                                         <td>Imam Mukhlas</td> 
                                         <td>1269696699</td> 
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit1">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit/1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
@@ -46,7 +46,7 @@
                                             <td>Achmad Tommy Nawawawi</td> 
                                             <td>8899565674</td> 
                                             <td>
-                                                <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit2">Ubah</a>
+                                                <a class="btn btn-xs bg-grey waves-effect" href="/staf/bidang/edit/2">Ubah</a>
                                                 <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                             </td>
                                         </tr>

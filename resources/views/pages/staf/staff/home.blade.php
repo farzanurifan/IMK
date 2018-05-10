@@ -36,7 +36,7 @@
                                         <td>1235678901</td>
                                         <td>Administrasi</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/staff/edit1">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/staff/edit/1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
@@ -46,7 +46,7 @@
                                         <td>0987653219</td>
                                         <td>Beasiswa</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/staff/edit2">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/staf/staff/edit/2">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
