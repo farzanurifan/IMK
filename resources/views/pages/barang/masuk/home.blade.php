@@ -21,13 +21,13 @@
                 <div class="body">
                     <div class="table-responsive">
                         <div class="col-md-12">
-                            <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+                            <table class="table table-bordered table-striped table-hover table-condensed js-basic-example dataTable">
                                 <thead>
                                     <tr>
                                         <th>ID</th>
                                         <th>Nama Barang</th>
                                         <th>Harga</th>
-                                        <th>Jumlah Masuk</th>
+                                        <th>Jumlah</th>
                                         <th>Satuan</th>
                                         <th>Jumlah Harga</th>
                                         <th>Kategori</th>

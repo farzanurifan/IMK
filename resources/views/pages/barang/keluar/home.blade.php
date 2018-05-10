@@ -21,14 +21,14 @@
                 <div class="body">
                     <div class="table-responsive">
                         <div class="col-md-12">
-                            <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+                            <table class="table table-bordered table-striped table-hover table-condensed js-basic-example dataTable">
                                 <thead>
                                     <tr>
                                         <th>ID</th>
                                         <th>Nama Barang</th>
                                         <th>Harga</th>
+                                        <th>Jumlah</th>
                                         <th>Satuan</th>
-                                        <th>Jumlah Keluar</th>
                                         <th>Jumlah Harga</th>
                                         <th>Kategori</th>
                                         <th>Tanggal ED</th>
@@ -40,8 +40,8 @@
                                         <td>211</td>
                                         <td>Pensil Ajaib</td>
                                         <td>Rp 100.000</td>
-                                        <td>Buah</td>
                                         <td>5</td>
+                                        <td>Buah</td>
                                         <td>Rp 500.000</td>
                                         <td>Alat Tulis</td>
                                         <td>18 April 2018</td>
@@ -54,8 +54,8 @@
                                         <td>211</td>
                                         <td>Susu Indomilk coklat</td>
                                         <td>Rp 200.000</td>
-                                        <td>Buah</td>
                                         <td>7</td>
+                                        <td>Buah</td>
                                         <td>Rp 1.400.000</td>
                                         <td>Makanan</td>
                                         <td>28 April 2018</td>
