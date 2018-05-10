@@ -33,10 +33,6 @@
 	@endif
 </title>
 
-            @if($indicator == 'pengaturan')
-                <li style="display:none" class="active">
-            @endif
-
 <!-- Favicon-->
 <link rel="icon" href="{{{ asset('favicon.ico') }}}" type="image/x-icon">
 
