@@ -29,6 +29,7 @@
                                   <div class="m-t-5">
                                       {{Form::text('id','2',[ 'disabled' ])}}
                                   </div>
+                                  <small>*id otomatis terisi</small>
                               </div>
                           </div>
                         </div>
