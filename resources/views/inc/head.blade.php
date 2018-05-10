@@ -5,7 +5,37 @@
 <!-- CSRF Token -->
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<title>Pengadaan Barang</title>
+<title>
+	@if($indicator == 'home')
+		Beranda
+	@elseif($indicator == 'databarang')
+		Data Barang
+	@elseif($indicator == 'kategori')
+		Kategori Barang
+	@elseif($indicator == 'keluar')
+		Barang Keluar
+	@elseif($indicator == 'masuk')
+		Barang Masuk
+	@elseif($indicator == 'lokasi')
+		Lokasi Barang
+	@elseif($indicator == 'instansi')
+		Informasi Instansi
+	@elseif($indicator == 'pemasok')
+		Data Pemasok
+	@elseif($indicator == 'bidang')
+		Kategori Bidang
+	@elseif($indicator == 'seksi')
+		Kategori Seksi
+	@elseif($indicator == 'staff')
+		Data Staf	
+	@elseif($indicator == 'pengaturan')
+		Pengaturan Tema
+	@endif
+</title>
+
+            @if($indicator == 'pengaturan')
+                <li style="display:none" class="active">
+            @endif
 
 <!-- Favicon-->
 <link rel="icon" href="{{{ asset('favicon.ico') }}}" type="image/x-icon">
