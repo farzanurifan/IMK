@@ -27,7 +27,7 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="m-t-5">
-                                        {{Form::text('id','1',[ 'disabled' ])}}
+                                        {{Form::text('id','2',[ 'disabled' ])}}
                                     </div>
                                     <small>*id otomatis terisi</small>
                                 </div>
@@ -40,7 +40,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namabarang','Senheiser X5770A',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::text('namabarang','Steelseries 256',['class'=>'form-control', 'required', 'autofocus'])}}
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('hargabarang','810000',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
+                                        {{Form::number('hargabarang','635000',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::number('jumlahmasuk','7',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
+                                        {{Form::number('jumlahmasuk','4',['class'=>'form-control', 'required', 'autofocus', 'id'=>'jumlah', 'onchange'=>'JumlahHarga()'])}}
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +85,7 @@
                                 <div class="form-group">
                                     <div class="m-t-5">
                                         Rp
-                                        {{Form::number('jumlahharga','5670000',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
+                                        {{Form::number('jumlahharga','2540000',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
                                     </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <small>*jumlah harga otomatis terisi</small>
                                 </div>
@@ -96,7 +96,7 @@
                                 {{Form::label('kategori_id','Kategori')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('kategori_id', ['1' => 'Headset', '2' => 'Smartphone', '3' => 'Mouse', '4' => 'Makanan'], null, ['class' => 'form-control show-tick', 'required'])}} 
+                                {{Form::select('kategori_id', ['1' => 'Mouse', '2' => 'Smartphone', '3' => 'Headset', '4' => 'Makanan'], null, ['class' => 'form-control show-tick', 'required'])}} 
                             </div>
                         </div>
                         <div class="row clearfix">

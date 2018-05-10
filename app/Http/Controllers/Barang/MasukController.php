@@ -17,9 +17,13 @@ class MasukController extends Controller
         // return route->back();
     }
 
-    public function edit() {
+    public function edit1() {
         $indicator = 'masuk';
         return view('pages.barang.masuk.edit',compact('indicator'));
+    }
+    public function edit2() {
+        $indicator = 'masuk';
+        return view('pages.barang.masuk.edit2',compact('indicator'));
     }
 
     public function edit_submit() {

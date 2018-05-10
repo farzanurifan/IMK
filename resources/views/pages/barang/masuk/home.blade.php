@@ -37,7 +37,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>201</td>
+                                        <td>1</td>
                                         <td>Senheiser X5770A</td>
                                         <td>Rp 810.000</td>
                                         <td>5</td>
@@ -46,21 +46,21 @@
                                         <td>Headset</td>
                                         <td>13 Mei 2018</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/masuk/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/masuk/edit/1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>202</td>
+                                        <td>2</td>
                                         <td>Steelseries 256</td>
                                         <td>Rp 635.000</td>
-                                        <td>7</td>
+                                        <td>4</td>
                                         <td>Buah</td>
-                                        <td>Rp 4.445.000</td>
+                                        <td>Rp 2.540.000</td>
                                         <td>Mouse</td>
                                         <td>19 Mei 2018</td>
                                         <td>
-                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/masuk/edit">Ubah</a>
+                                            <a class="btn btn-xs bg-grey waves-effect" href="/barang/masuk/edit/2">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>

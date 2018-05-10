@@ -123,7 +123,8 @@ Route::group(['prefix' => 'barang'], function(){
     Route::group(['prefix' => 'masuk'], function(){
         Route::get('/create', 'Barang\MasukController@create');
         Route::post('/create/submit','Barang\MasukController@create_submit');
-        Route::get('/edit', 'Barang\MasukController@edit');
+        Route::get('/edit/1', 'Barang\MasukController@edit1');
+        Route::get('/edit/2', 'Barang\MasukController@edit2');
         Route::put('/edit/submit','Barang\MasukController@edit_submit');
         Route::delete('/delete', 'Barang\MasukController@delete')->name('masuk.delete');
     });
