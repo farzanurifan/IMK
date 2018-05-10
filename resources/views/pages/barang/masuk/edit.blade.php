@@ -58,14 +58,6 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('satuanbarang','Satuan')}}
-                            </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('satuanbarang', [null => '-Pilih Satuan-', '1' => 'Buah', '2' => 'Lusin'], null, ['class' => 'form-control show-tick', 'required'])}}
-                            </div>
-                        </div>
-                        <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label " style="text-align: left;margin-top:8px;" >
                                 {{Form::label('jumlahmasuk','Jumlah Masuk')}}
                             </div>
@@ -79,13 +71,23 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                {{Form::label('satuanbarang','Satuan')}}
+                            </div>
+                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
+                                {{Form::select('satuanbarang', [null => '-Pilih Satuan-', '1' => 'Buah', '2' => 'Lusin'], null, ['class' => 'form-control show-tick', 'required'])}}
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('jumlahharga','Jumlah Harga')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
-                                    <div class="form-line">
-                                        {{Form::number('jumlahharga',500000,['class'=>'form-control', 'disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
-                                    </div>
+                                    <div class="m-t-5">
+                                        Rp
+                                        {{Form::number('jumlahharga','500000',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
+                                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <small>*jumlah harga otomatis terisi</small>
                                 </div>
                             </div>
                         </div>

@@ -5,7 +5,7 @@
 <!-- CSRF Token -->
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<title>{{ config('app.name', 'Laravel') }}</title>
+<title>Pengadaan Barang</title>
 
 <!-- Favicon-->
 <link rel="icon" href="{{{ asset('favicon.ico') }}}" type="image/x-icon">
