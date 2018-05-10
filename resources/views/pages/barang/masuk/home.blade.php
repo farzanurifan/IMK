@@ -40,7 +40,7 @@
                                         <td>1</td>
                                         <td>Senheiser X5770A</td>
                                         <td>Rp 810.000</td>
-                                        <td>5</td>
+                                        <td>7</td>
                                         <td>Buah</td>
                                         <td>Rp 5.670.000</td>
                                         <td>Headset</td>
