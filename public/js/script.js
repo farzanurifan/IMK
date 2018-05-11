@@ -27,7 +27,6 @@ function JumlahHarga(){
 	jumlahharga = jumlah * harga;
 	console.log(jumlahharga);
 	document.getElementById("jumlahharga").value = (jumlahharga).formatMoney(2, ',', '.');
-	document.getElementById("harga").value = (harga).formatMoney(2, ',', '.');
 }
 
 // (function() {
