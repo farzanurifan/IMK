@@ -4,7 +4,7 @@
     @include('inc.head')
 </head>
 
-<body class="theme-teal">
+<body class="theme-{{ Auth::user()->warna }}">
     @include('inc.pageloader')
 
     @include('inc.topbar')

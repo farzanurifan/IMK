@@ -5,7 +5,7 @@
             <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
             <a href="javascript:void(0);" class="bars"></a>
             <a class="navbar-brand" href="/">
-                <span class="image"><img src="{{{ asset('favicon.ico') }}}" width="24" height="24" alt="Logo" /> </span>
+                {{-- <span class="image"><img src="{{{ asset('favicon.ico') }}}" width="24" height="24" alt="Logo" /> </span> --}}
                 Sistem Informasi Pengadaan Barang
             </a>
         </div>

@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/pengaturan', 'PengaturanController@pengaturan');
 
-Route::get('/pengaturan/apply', 'PengaturanController@apply');
+Route::get('/pengaturan/apply/{warna}', 'PengaturanController@apply');
 
 ////////////////////////////////////////////////////////////////////////////////
 
