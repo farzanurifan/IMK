@@ -86,16 +86,12 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('kuotabarang','Kategori')}}
-                            </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        {{Form::text('kuotabarang','Smartphone',['class'=>'form-control', 'required', 'autofocus'])}}
-                                    </div>
+                                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                    {{Form::label('kategori','Kategori')}}
                                 </div>
-                            </div>
+                                <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
+                                    {{Form::select('kategori', ['1' => 'Smartphone', '2' => 'Makanan'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
