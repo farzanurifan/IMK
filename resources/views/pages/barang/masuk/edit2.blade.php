@@ -100,16 +100,25 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('tanggaled','Tanggal ED')}}
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="datepicker form-control" placeholder="Please choose a date..." required>
+                                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
+                                    {{Form::label('tanggaled','Tanggal ED')}}
+                                </div>
+                                {{-- <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" class="datepicker form-control" placeholder="Please choose a date..." required>
+                                        </div>
+                                    </div>
+                                </div> --}}
+    
+                                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            {{Form::date('tanggal', \Carbon\Carbon::createFromDate(2018,10,02)->format('Y-m-d'),['class'=>'form-control', 'required', 'id'=> "tanggal"])}}
+                                        </div>
+                                        <small>*bulan/tanggal/tahun</small>
                                     </div>
                                 </div>
-                            </div>
                         </div>
                         <div class="col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3">
                             <div class="row clearfix form-group">
