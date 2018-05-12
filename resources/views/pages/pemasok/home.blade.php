@@ -26,468 +26,468 @@
                                         <th>Nama Pemasok</th>
                                         <th>Pimpinan</th>
                                         <th>Alamat</th>
-                                        <th>Nomor Telp.</th>
+                                        <th>Nomor Telepon</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>111</td>
+                                        <td>1</td>
                                         <td>Ananda</td>
                                         <td>Profesor</td>
                                         <td>Surabaya</td>
-                                        <td>9328919</td>
+                                        <td>08977634955</td>
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/pemasok/edit">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>

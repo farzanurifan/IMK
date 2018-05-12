@@ -27,7 +27,7 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="m-t-5">
-                                        {{Form::text('id','1',[ 'disabled' ])}}
+                                        {{Form::text('id','2',[ 'disabled' ])}}
                                     </div>
                                     <small>*id otomatis terisi</small>
                                 </div>
@@ -71,7 +71,7 @@
                         </div>
                         <div class="row ">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                {{Form::label('notelprekanan','Nomor Telp.')}}
+                                {{Form::label('notelprekanan','Nomor Telepon')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
