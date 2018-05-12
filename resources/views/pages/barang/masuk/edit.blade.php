@@ -89,7 +89,7 @@
                                 <div class="form-group">
                                     <div class="m-t-5">
                                         Rp
-                                        {{Form::text('jumlahharga','5670000',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
+                                        {{Form::text('jumlahharga','5.670.000',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
                                     </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <small>*jumlah harga otomatis terisi</small>
                                 </div>
