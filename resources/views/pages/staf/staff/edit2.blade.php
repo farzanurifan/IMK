@@ -27,7 +27,7 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="m-t-5">
-                                        {{Form::text('id','1',[ 'disabled' ])}}
+                                        {{Form::text('id','2',[ 'disabled' ])}}
                                     </div>
                                     <small>*id otomatis terisi</small>
                                 </div>
@@ -62,7 +62,7 @@
                                 {{Form::label('seksi_id','Seksi')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('seksi_id', [null => '-Pilih Seksi-', '1' => 'Administrasi', '2' => 'Beasiswa'], '2', ['class' => 'form-control show-tick', 'required'])}}
+                                {{Form::select('seksi_id', ['1' => 'Administrasi', '2' => 'Beasiswa'], '2', ['class' => 'form-control show-tick', 'required'])}}
                             </div>
                         </div>
                         <div class="col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3">
