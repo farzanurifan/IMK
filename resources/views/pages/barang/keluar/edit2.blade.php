@@ -49,7 +49,8 @@
                             <div  class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('hargabarang','Harga')}}
                             </div>
-                            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                            <div class="col-md-1 col-xs-1 col-sm-1 col-lg-1" style="text-align: left;margin-top:8px;">Rp</div>
+                            <div class="col-md-5 col-xs-5 col-sm-5 col-lg-5">
                                 <div class="form-group">
                                     <div class="form-line">
                                         {{Form::text('hargabarang','18000',['class'=>'form-control', 'required', 'autofocus', 'id'=>'harga', 'onchange'=>'JumlahHarga()'])}}
