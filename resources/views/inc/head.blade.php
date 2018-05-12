@@ -23,8 +23,12 @@
 	@elseif($indicator == 'pemasok')
 		Data Pemasok
 	@elseif($indicator == 'bidang')
+		Data Bidang
+	@elseif($indicator == 'namabidang')
 		Kategori Bidang
 	@elseif($indicator == 'seksi')
+		Data Seksi
+	@elseif($indicator == 'namaseksi')
 		Kategori Seksi
 	@elseif($indicator == 'staff')
 		Data Staf	

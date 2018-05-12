@@ -17,6 +17,12 @@ class StafController extends Controller
         return view('pages.staf.bidang.home',compact('indicator','data'));
     }
 
+    // Nama Bidang
+    public function namabidang() {
+        $indicator = 'namabidang';
+        return view('pages.staf.namabidang.home',compact('indicator','data'));
+    }
+
     // Seksi
     public function seksi() {
         $data = StafSeksi::all();

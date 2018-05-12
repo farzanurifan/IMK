@@ -1,4 +1,4 @@
-@if($indicator == 'bidang' || $indicator == 'seksi' || $indicator == 'staff')
+@if($indicator == 'bidang' || $indicator == 'seksi' || $indicator == 'staff' || $indicator == 'namabidang' || $indicator == 'namaseksi')
     <li class="active">
 @else
     <li>
@@ -28,6 +28,13 @@
             <li>
         @endif
             <a href="/staf/staff">Staf</a>
+        </li>
+        @if($indicator == 'namabidang')
+            <li class="active">
+        @else
+            <li>
+        @endif
+            <a href="/staf/namabidang">Nama Bidang</a>
         </li>
     </ul>
 </li>
