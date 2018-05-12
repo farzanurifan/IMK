@@ -13,9 +13,9 @@
 	@elseif($indicator == 'kategori')
 		Kategori Barang
 	@elseif($indicator == 'keluar')
-		Barang Keluar
+		Data Barang Keluar
 	@elseif($indicator == 'masuk')
-		Barang Masuk
+		Data Barang Masuk
 	@elseif($indicator == 'lokasi')
 		Lokasi Barang
 	@elseif($indicator == 'instansi')

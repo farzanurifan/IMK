@@ -13,35 +13,35 @@
         @else
             <li>
         @endif
-            <a href="/staf/bidang">Bidang</a>
+            <a href="/staf/bidang">Data Bidang</a>
         </li>
         @if($indicator == 'seksi')
             <li class="active">
         @else
             <li>
         @endif
-            <a href="/staf/seksi">Seksi</a>
+            <a href="/staf/seksi">Data Seksi</a>
         </li>
         @if($indicator == 'staff')
             <li class="active">
         @else
             <li>
         @endif
-            <a href="/staf/staff">Staf</a>
+            <a href="/staf/staff">Data Staf</a>
         </li>
         @if($indicator == 'namabidang')
             <li class="active">
         @else
             <li>
         @endif
-            <a href="/staf/namabidang">Nama Bidang</a>
+            <a href="/staf/namabidang">Kategori Bidang</a>
         </li>
         @if($indicator == 'namaseksi')
             <li class="active">
         @else
             <li>
         @endif
-            <a href="/staf/namaseksi">Nama Seksi</a>
+            <a href="/staf/namaseksi">Kategori Seksi</a>
         </li>
     </ul>
 </li>

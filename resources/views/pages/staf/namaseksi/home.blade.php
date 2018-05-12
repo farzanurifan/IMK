@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Nama Seksi
+                        Kategori Seksi
                     </h2>
                     <ul class="header-dropdown m-t--5">
                         <a href="/staf/namaseksi/create">
