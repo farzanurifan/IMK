@@ -105,7 +105,7 @@
                                     </div>
                                 </div>
                         </div>
-                        <div class="row clearfix">
+                        <!-- <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
                                 {{Form::label('tanggaled','Tanggal ED')}}
                             </div>
@@ -125,7 +125,7 @@
                                     <small>*bulan/tanggal/tahun</small>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3">
                             <div class="row clearfix form-group">
                                 <input type="checkbox" id="checkbox" name="benar" class="filled-in" required>

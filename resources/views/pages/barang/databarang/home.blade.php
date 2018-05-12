@@ -31,7 +31,7 @@
                                         <th>Satuan</th>
                                         <th>Lokasi</th>
                                         <th>Kategori</th>
-                                        <th>Tanggal ED</th>
+                                        <!-- <th>Tanggal ED</th> -->
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
@@ -44,7 +44,7 @@
                                         <td>Buah</td>
                                         <td>Lemari</td>
                                         <td>Smartphone</td>
-                                        <td>12 April 2018</td>
+                                        <!-- <td>12 April 2018</td> -->
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit/1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
@@ -58,7 +58,7 @@
                                         <td>Buah</td>
                                         <td>Gudang</td>
                                         <td>Smartphone</td>
-                                        <td>12 Mei 2018</td>
+                                        <!-- <td>12 Mei 2018</td> -->
                                         <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit/2">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>

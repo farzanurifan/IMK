@@ -31,7 +31,7 @@
                                         <th>Satuan</th>
                                         <th>Jumlah Harga</th>
                                         <th>Kategori</th>
-                                        <th>Tanggal ED</th>
+                                        <th>Tanggal Keluar</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>

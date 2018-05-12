@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="col-md-8 col-md-offset-2">
+<div class="col-md-8 col-md-offset-2" style="margin-top: 50px;">
     <div class="panel panel-default">
-        <div class="panel-heading">Selamat Datang</div>
+        <div class="panel-heading"><b>Selamat Datang</b></div>
 
         <div class="panel-body">
             @if (session('status'))
@@ -15,17 +15,10 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading">Info 1</div>
+        <div class="panel-heading"><b>Data pada menu Pemasok</b></div>
 
         <div class="panel-body">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo sequi nulla quasi obcaecati vero, ullam et alias nesciunt corporis? Sint enim rerum quisquam rem consequatur, excepturi earum cupiditate illum? Praesentium!
-        </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-heading">Info 2</div>
-
-        <div class="panel-body">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo sequi nulla quasi obcaecati vero, ullam et alias nesciunt corporis? Sint enim rerum quisquam rem consequatur, excepturi earum cupiditate illum? Praesentium!
+            Menurut 
         </div>
     </div>
 </div>
