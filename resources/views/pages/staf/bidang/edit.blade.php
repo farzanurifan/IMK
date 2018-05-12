@@ -40,7 +40,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namabidang','Keuangan',['class'=>'form-control', 'required', 'autofocus'])}} 
+                                        {{Form::select('bidang_id', ['1' => 'Keuangan', '2' => 'Pendidikan'], '1', ['class' => 'form-control show-tick', 'required'])}}
                                     </div>
                                 </div>
                             </div>

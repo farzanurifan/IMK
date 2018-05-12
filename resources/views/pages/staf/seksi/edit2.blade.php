@@ -27,7 +27,7 @@
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
                                 <div class="form-group">
                                     <div class="m-t-5">
-                                        {{Form::text('id','1',[ 'disabled' ])}}
+                                        {{Form::text('id','2',[ 'disabled' ])}}
                                     </div>
                                     <small>*id otomatis terisi</small>
                                 </div>
@@ -40,7 +40,8 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('namaseksi','Beasiswa',['class'=>'form-control', 'required', 'autofocus'])}}
+                                        {{Form::select('seksi_id', ['1' => 'Administrasi', '2' => 'Beasiswa'], '2', ['class' => 'form-control show-tick', 'required'])}}
+
                                     </div>
                                 </div>
                             </div>
