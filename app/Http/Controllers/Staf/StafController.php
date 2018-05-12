@@ -30,6 +30,12 @@ class StafController extends Controller
         return view('pages.staf.seksi.home',compact('indicator','data'));
     }
 
+    // Nama Seksi
+    public function namaseksi() {
+        $indicator = 'namaseksi';
+        return view('pages.staf.namaseksi.home',compact('indicator','data'));
+    }
+
     // Staf
     public function staff() {
         $indicator = 'staff';

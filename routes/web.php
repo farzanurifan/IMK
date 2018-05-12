@@ -29,6 +29,8 @@ Route::group(['prefix' => 'staf'], function(){
     Route::get('/seksi', 'Staf\StafController@seksi');
     Route::get('/staff', 'Staf\StafController@staff');
     Route::get('/namabidang', 'Staf\StafController@namabidang');
+    Route::get('/namaseksi', 'Staf\StafController@namaseksi');
+
 
     // Bidang
     Route::group(['prefix' => 'bidang'], function(){
@@ -58,6 +60,16 @@ Route::group(['prefix' => 'staf'], function(){
         Route::get('/edit/2', 'Staf\SeksiController@edit2');
         Route::put('/edit/submit','Staf\SeksiController@edit_submit');
         Route::delete('/delete/{id}', 'Staf\SeksiController@delete')->name('seksi.delete');
+    });
+
+    // Nama Seksi
+    Route::group(['prefix' => 'namaseksi'], function(){
+        Route::get('/create', 'Staf\NamaSeksiController@create');
+        Route::post('/create/submit','Staf\NamaSeksiController@create_submit');
+        Route::get('/edit/1', 'Staf\NamaSeksiController@edit1');
+        Route::get('/edit/2', 'Staf\NamaSeksiController@edit2');
+        Route::put('/edit/submit','Staf\NamaSeksiController@edit_submit');
+        Route::delete('/delete/{id}', 'Staf\NamaSeksiController@delete')->name('bidang.delete');
     });
 
     // Staf

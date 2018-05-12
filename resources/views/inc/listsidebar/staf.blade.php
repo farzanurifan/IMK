@@ -36,5 +36,12 @@
         @endif
             <a href="/staf/namabidang">Nama Bidang</a>
         </li>
+        @if($indicator == 'namaseksi')
+            <li class="active">
+        @else
+            <li>
+        @endif
+            <a href="/staf/namaseksi">Nama Seksi</a>
+        </li>
     </ul>
 </li>
