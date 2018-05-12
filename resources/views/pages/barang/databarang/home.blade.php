@@ -13,9 +13,9 @@
                     <ul class="header-dropdown m-t--5">
                         {{-- <button type="button" class="btn bg-cyan waves-effect" data-toggle="modal" data-target="#defaultModal">Impor Barang</button>
                         <small>&nbsp;&nbsp;</small> --}}
-                        <a href="/barang/databarang/create">
+                        <!-- <a href="/barang/databarang/create">
                             <button type="button" class="btn bg-green waves-effect">Tambah</button>
-                        </a>
+                        </a> -->
                     </ul>
                 </div>
                 <div class="body">
@@ -32,7 +32,7 @@
                                         <th>Lokasi</th>
                                         <th>Kategori</th>
                                         <!-- <th>Tanggal ED</th> -->
-                                        <th>Aksi</th>
+                                        <!-- <th>Aksi</th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -45,10 +45,10 @@
                                         <td>Lemari</td>
                                         <td>Smartphone</td>
                                         <!-- <td>12 April 2018</td> -->
-                                        <td>
+                                        <!-- <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit/1">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
-                                        </td>
+                                        </td> -->
                                     </tr>
                                     <tr>
                                         <td>2</td>
@@ -59,10 +59,10 @@
                                         <td>Gudang</td>
                                         <td>Smartphone</td>
                                         <!-- <td>12 Mei 2018</td> -->
-                                        <td>
+                                        <!-- <td>
                                             <a class="btn btn-xs bg-grey waves-effect" href="/barang/databarang/edit/2">Ubah</a>
                                             <button class="btn btn-xs btn-danger waves-effect" data-type="confirm">Hapus</button>
-                                        </td>
+                                        </td> -->
                                     </tr>
                                 </tbody>
                             </table>

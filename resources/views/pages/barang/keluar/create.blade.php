@@ -90,8 +90,7 @@
                                     <div class="m-t-5">
                                         Rp
                                         {{Form::text('jumlahharga','',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
-                                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <small>*jumlah harga otomatis terisi</small>
+                                    </div>
                                 </div>
                             </div>
                         </div>

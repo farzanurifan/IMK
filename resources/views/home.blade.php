@@ -15,10 +15,11 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading"><b>Data pada menu Pemasok</b></div>
+        <div class="panel-heading"><b>Info : </b>Data pada menu Pemasok</div>
 
         <div class="panel-body">
-            Menurut 
+            Dalam kasus yang sebenarnya, data ID pada tabel tidak boleh sama (harus unique).<br>
+            Disini kami memberikan data dummy dengan field yang sama sebanyak 42 baris, sehingga kami dapat menguji kinerja fungsi paginating kami.
         </div>
     </div>
 </div>

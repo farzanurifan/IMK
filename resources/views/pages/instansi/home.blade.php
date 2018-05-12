@@ -62,8 +62,8 @@
                                 </tr>
                                 <tr>
                                     <td><b>Penyimpan Barang</b></td>
-                                    <td>Farza Nurifan</td>
-                                    <td>1653746810</td>
+                                    <td colspan="2">Farza Nurifan</td>
+                                    <!-- <td>1653746810</td> -->
                                 </tr>
                                 <tr>
                                     <td><b>Kepala UPT / NIP</b></td>

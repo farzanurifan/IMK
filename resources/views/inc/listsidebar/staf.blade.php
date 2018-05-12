@@ -29,7 +29,7 @@
         @endif
             <a href="/staf/staff">Data Staf</a>
         </li>
-        @if($indicator == 'namabidang')
+       <!--  @if($indicator == 'namabidang')
             <li class="active">
         @else
             <li>
@@ -42,6 +42,6 @@
             <li>
         @endif
             <a href="/staf/namaseksi">Kategori Seksi</a>
-        </li>
+        </li> -->
     </ul>
 </li>

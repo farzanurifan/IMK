@@ -90,8 +90,7 @@
                                     <div class="m-t-5">
                                         Rp
                                         {{Form::text('jumlahharga','2.540.000',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
-                                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <small>*jumlah harga otomatis terisi</small>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +108,7 @@
                         </div>
                         <div class="row clearfix">
                                 <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label" style="text-align: left;margin-top:8px;">
-                                    {{Form::label('tanggaled','Tanggal ED')}}
+                                    {{Form::label('tanggaled','Tanggal Masuk')}}
                                 </div>
                                 {{-- <div class="col-sm-4">
                                     <div class="form-group">
