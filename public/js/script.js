@@ -1,11 +1,17 @@
 window.onload=function(){
-  //document.getElementById("autoClick").click();
+	document.getElementById("autoClick").click();
 };
+$(document).ready(function(){
+	$('#harga').mask('#.##0', {
+		reverse: true
+	});
+});
 
-n =  new Date();
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
+
+// n =  new Date();
+// y = n.getFullYear();
+// m = n.getMonth() + 1;
+// d = n.getDate();
 // document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 
 function formatMoney(a, c, d, t){
@@ -34,10 +40,12 @@ function JumlahHarga(){
 	jumlah = document.getElementById("jumlah").value;
 	// jumlah = 1;
 	harga = document.getElementById("harga").value;
+	harga = harga.replace(/\./g,'')
+	console.log(harga);
 	jumlahharga = jumlah * harga;
 	console.log(jumlahharga);
 	document.getElementById("jumlahharga").value = (jumlahharga).formatMoney(2, ',', '.');
-}
+};
 
 // (function() {
 

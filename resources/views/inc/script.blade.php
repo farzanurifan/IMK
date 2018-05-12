@@ -40,6 +40,7 @@
 
 <!-- Bikinan Sendiri Js -->
 {!! Html::script('js/script.js') !!}
+{!! Html::script('js/jquery.mask.js') !!}
 
 <!-- Dropzone Plugin Js -->
 {!! Html::script('plugins/dropzone/dropzone.js') !!}
