@@ -74,7 +74,11 @@
                                 {{Form::label('satuanbarang','Satuan')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-t-5">
-                                {{Form::select('satuanbarang', ['1' => 'Buah', '2' => 'Lusin'], 1, ['class' => 'form-control show-tick', 'required'])}}
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::select('satuanbarang', ['1' => 'Buah', '2' => 'Lusin'], 1, ['class' => 'form-control show-tick', 'required'])}}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row clearfix">
@@ -96,7 +100,11 @@
                                 {{Form::label('kategori_id','Kategori')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-t-5">
-                                {{Form::select('kategori_id', ['1' => 'Headset', '2' => 'Smartphone', '3' => 'Mouse', '4' => 'Makanan'], 4, ['class' => 'form-control show-tick', 'required'])}} 
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::select('kategori_id', ['1' => 'Headset', '2' => 'Smartphone', '3' => 'Mouse', '4' => 'Makanan'], 4, ['class' => 'form-control show-tick', 'required'])}} 
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row clearfix">

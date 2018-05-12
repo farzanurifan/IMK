@@ -62,7 +62,11 @@
                                 {{Form::label('seksi_id','Seksi')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-t-5">
-                                {{Form::select('seksi_id', ['1' => 'Administrasi', '2' => 'Beasiswa'], '1', ['class' => 'form-control show-tick', 'required'])}}
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::select('seksi_id', ['1' => 'Administrasi', '2' => 'Beasiswa'], '1', ['class' => 'form-control show-tick', 'required'])}}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3">
