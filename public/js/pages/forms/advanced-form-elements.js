@@ -1,3 +1,4 @@
+/*
 $(function () {
     $('.colorpicker').colorpicker();
 
@@ -6,7 +7,8 @@ $(function () {
         paramName: "file",
         maxFilesize: 2
     };
-
+*/
+/*
     //Masked Input ============================================================================================================================
     var $demoMaskedInput = $('.demo-masked-input');
 
@@ -71,7 +73,8 @@ $(function () {
     });
     getNoUISliderValue(rangeSlider, false);
 });
-
+*/
+/*
 //Get noUISlider Value and write on
 function getNoUISliderValue(slider, percentage) {
     slider.noUiSlider.on('update', function () {
@@ -83,3 +86,4 @@ function getNoUISliderValue(slider, percentage) {
         $(slider).parent().find('span.js-nouislider-value').text(val);
     });
 }
+*/

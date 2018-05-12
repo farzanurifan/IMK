@@ -1,15 +1,26 @@
 window.onload=function(){
-  document.getElementById("autoClick").click();
+  //document.getElementById("autoClick").click();
 };
 
 n =  new Date();
 y = n.getFullYear();
 m = n.getMonth() + 1;
 d = n.getDate();
-document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+// document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+
+function formatMoney(a, c, d, t){
+		var n = a, 
+		c = isNaN(c = Math.abs(c)) ? 2 : c, 
+		d = d == undefined ? "." : d, 
+		t = t == undefined ? "," : t, 
+		s = n < 0 ? "-" : "", 
+		i = String(parseInt(n = Math.abs(Number(n) || 0).toFixed(c))), 
+		j = (j = i.length) > 3 ? j % 3 : 0;
+	   return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+	 };
 
 function JumlahHarga(){
-	Number.prototype.formatMoney = function(c, d, t){
+	 Number.prototype.formatMoney = function(c, d, t){
 		var n = this, 
 		c = isNaN(c = Math.abs(c)) ? 2 : c, 
 		d = d == undefined ? "." : d, 
@@ -19,7 +30,6 @@ function JumlahHarga(){
 		j = (j = i.length) > 3 ? j % 3 : 0;
 	   return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
 	 };
-	 
 	console.log("Jumlah Harga di update");
 	jumlah = document.getElementById("jumlah").value;
 	// jumlah = 1;
