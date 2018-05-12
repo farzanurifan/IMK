@@ -5,6 +5,8 @@ $(document).ready(function(){
 	$('#harga').mask('#.##0', {
 		reverse: true
 	});
+	$('#dis').css("cursor", "not-allowed");
+	$('#jumlahharga').css("cursor", "not-allowed");
 });
 
 
