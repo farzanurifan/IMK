@@ -74,7 +74,11 @@
                                 {{Form::label('satuanbarang','Satuan')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('satuanbarang', [null => '-Pilih Satuan-', '1' => 'Buah', '2' => 'Lusin'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::select('satuanbarang', [null => '-Pilih Satuan-', '1' => 'Buah', '2' => 'Lusin'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row clearfix">
@@ -82,7 +86,11 @@
                                 {{Form::label('lokasi_id','Lokasi')}}
                             </div>
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                {{Form::select('lokasi_id', [null => '-Pilih Lokasi-', '1' => 'Lemari', '2' => 'Gudang', '3' => 'Taman'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        {{Form::select('lokasi_id', [null => '-Pilih Lokasi-', '1' => 'Lemari', '2' =>  'Gudang', '3' => 'Taman'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row clearfix">
@@ -90,7 +98,11 @@
                                     {{Form::label('kategori','Kategori')}}
                                 </div>
                                 <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 m-l--15">
-                                    {{Form::select('kategori', [null => '-Pilih Kategori-', '1' => 'Smartphone', '2' => 'Makanan'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            {{Form::select('kategori', [null => '-Pilih Kategori-', '1' => 'Smartphone', '2' => 'Makanan'], null, ['class' => 'form-control show-tick', 'required'])}}
+                                        </div>
+                                    </div>
                                 </div>
                         </div>
                         <div class="row clearfix">
