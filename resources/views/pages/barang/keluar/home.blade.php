@@ -29,7 +29,7 @@
                                         <th>Harga</th>
                                         <th>Jumlah</th>
                                         <th>Satuan</th>
-                                        <th>Jumlah Harga</th>
+                                        <th>Total</th>
                                         <th>Kategori</th>
                                         <th>Tanggal Keluar</th>
                                         <th>Aksi</th>
