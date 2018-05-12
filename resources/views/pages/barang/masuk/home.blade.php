@@ -39,10 +39,10 @@
                                     <tr>
                                         <td>1</td>
                                         <td>Senheiser X5770A</td>
-                                        <td>Rp 810.000</td>
+                                        <td>Rp 81.000</td>
                                         <td>7</td>
                                         <td>Buah</td>
-                                        <td>Rp 5.670.000</td>
+                                        <td>Rp 567.000</td>
                                         <td>Headset</td>
                                         <td>13 Mei 2018</td>
                                         <td>
@@ -53,10 +53,10 @@
                                     <tr>
                                         <td>2</td>
                                         <td>Steelseries 256</td>
-                                        <td>Rp 635.000</td>
+                                        <td>Rp 63.5000</td>
                                         <td>4</td>
                                         <td>Buah</td>
-                                        <td>Rp 2.540.000</td>
+                                        <td>Rp 254.000</td>
                                         <td>Mouse</td>
                                         <td>19 Mei 2018</td>
                                         <td>
