@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Tambah Barang Masuk
+                        Tambah Data Barang Masuk
                     </h2>
                     <ul class="header-dropdown m-t--5">
                       <li>

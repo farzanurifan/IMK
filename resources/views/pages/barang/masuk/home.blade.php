@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Barang Masuk
+                       Data Barang Masuk
                     </h2>
                     <ul class="header-dropdown m-t--5">
                         {{-- <button type="button" class="btn bg-cyan waves-effect" data-toggle="modal" data-target="#defaultModal">Impor Barang</button>

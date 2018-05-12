@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Lokasi
+                        Lokasi Barang
                     </h2>
                     <ul class="header-dropdown m-t--5">
                         <a href="/barang/lokasi/create">

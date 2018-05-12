@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Edit Kategori Seksi
+                        Ubah Kategori Seksi
                     </h2>
                     <ul class="header-dropdown m-t--5">
                       <li>

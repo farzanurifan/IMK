@@ -15,33 +15,33 @@
         @endif
             <a href="/barang/databarang">Data Barang</a>
         </li>
-        @if($indicator == 'kategori')
-            <li class="active">
-        @else
-            <li>
-        @endif
-            <a href="/barang/kategori">Kategori</a>
-        </li>
         @if($indicator == 'masuk')
             <li class="active">
         @else
             <li>
         @endif
-            <a href="/barang/masuk">Masuk</a>
+            <a href="/barang/masuk">Data Barang Masuk</a>
         </li>
         @if($indicator == 'keluar')
             <li class="active">
         @else
             <li>
         @endif
-            <a href="/barang/keluar">Keluar</a>
+            <a href="/barang/keluar">Data Barang Keluar</a>
+        </li>
+        @if($indicator == 'kategori')
+            <li class="active">
+        @else
+            <li>
+        @endif
+            <a href="/barang/kategori">Kategori Barang</a>
         </li>
         @if($indicator == 'lokasi')
             <li class="active">
         @else
             <li>
         @endif
-            <a href="/barang/lokasi">Lokasi</a>
+            <a href="/barang/lokasi">Lokasi Barang</a>
         </li>
     </ul>
 </li>
