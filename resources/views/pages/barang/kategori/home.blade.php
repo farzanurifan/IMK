@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="col-md-12">
+<div class="col-md-8 col-md-offset-2">
     <!-- Basic Examples -->
     <div class="row clearfix js-sweetalert">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
