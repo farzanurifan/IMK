@@ -36,7 +36,7 @@ $(document).ready(function(){
 		input1 = input1.replace(/\./g,'')
 		var input2 = $('#jumlah').val();
 		var hasil = input1 * input2;
-		document.getElementById("jumlahharga").value = (hasil).formatMoney(2, ',', '.');
+		document.getElementById("jumlahharga").value ='Rp ' + (hasil).formatMoney(2, ',', '.');
 	};
 	console.log(updateTotal);
 });
