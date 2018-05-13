@@ -57,7 +57,6 @@
                                     </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 form-label " style="text-align: left;margin-top:8px;" >
