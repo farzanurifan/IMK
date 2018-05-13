@@ -12,6 +12,10 @@ $(document).ready(function(){
 		updateTotal();
 	});
 	
+	$('#jumlah').change(function() {  
+		updateTotal();
+	});
+
 	$('#jumlah').keyup(function() {  
 		updateTotal();
 	});
