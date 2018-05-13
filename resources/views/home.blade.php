@@ -18,7 +18,7 @@
         <div class="panel-heading"><b>Info : </b>Data pada menu Pemasok</div>
 
         <div class="panel-body">
-            Dalam kasus yang sebenarnya, data ID pada tabel tidak boleh sama (harus unique).<br>
+            Dalam kasus yang sebenarnya, data ID pada tabel tidak boleh sama (harus unik).<br>
             Disini kami memberikan data dummy dengan field yang sama sebanyak 42 baris, sehingga kami dapat menguji kinerja fungsi paginating kami.
         </div>
     </div>
