@@ -89,7 +89,7 @@
                             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
                                 <div class="form-group">
                                     <div class="m-t-5">
-                                        {{Form::text('jumlahharga','',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
+                                        {{Form::text('jumlahharga','Rp 0,00',['disabled', 'required', 'autofocus', 'id'=>'jumlahharga'])}}
                                     </div>
                                 </div>
                             </div>
