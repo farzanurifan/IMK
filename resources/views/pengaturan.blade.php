@@ -9,11 +9,11 @@
                 <h2>
                     Warna Tema Aplikasi
                 </h2>
-                <ul class="header-dropdown m-t--5">
+                {{-- <ul class="header-dropdown m-t--5">
                     <a href="/home">
                         <button type="button" class="btn btn-success waves-effect">Kembali ke Beranda</button>
                     </a>
-                </ul>
+                </ul> --}}
             </div>            
             <div class="body">
                 <p>*klik warna yang diinginkan</p>
