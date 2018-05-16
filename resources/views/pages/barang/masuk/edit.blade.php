@@ -121,7 +121,7 @@
                                 <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            {{Form::date('tanggal', \Carbon\Carbon::createFromDate(2018,10,02)->format('Y-m-d'),['class'=>'form-control', 'required', 'id'=> "tanggal"])}}
+                                            {{Form::date('tanggal', \Carbon\Carbon::createFromDate(2018,5,13)->format('Y-m-d'),['class'=>'form-control', 'required', 'id'=> "tanggal"])}}
                                         </div>
                                         <small>*bulan/tanggal/tahun</small>
                                     </div>

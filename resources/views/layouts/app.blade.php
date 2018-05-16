@@ -19,7 +19,7 @@
         </div>
     </section>
 
-    @include('inc.modal')
+    <!-- @include('inc.modal') -->
     
     @include('inc.script')
     
