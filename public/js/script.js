@@ -8,6 +8,30 @@ $(document).ready(function(){
 	$('#dis').css("cursor", "not-allowed");
 	$('#jumlahharga').css("cursor", "not-allowed");
 	
+	$('#bidang_id').change(function() {  
+		if($('#bidang_id').val() != null){
+			$('#bidang_id-error').css('display', 'none');
+		}
+	});
+
+	$('#seksi_id').change(function() {  
+		if($('#seksi_id').val() != null){
+			$('#seksi_id-error').css('display', 'none');
+		}
+	});
+
+	$('#satuanbarang').change(function() {  
+		if($('#satuanbarang').val() != null){
+			$('#satuanbarang-error').css('display', 'none');
+		}
+	});
+
+	$('#kategori_id').change(function() {  
+		if($('#kategori_id').val() != null){
+			$('#kategori_id-error').css('display', 'none');
+		}
+	});
+
 	$('#harga').keyup(function() {  
 		updateTotal();
 	});
