@@ -29,7 +29,7 @@
 				from: "top",
 				align: "right"
 			},
-			offset: 13,
+			offset: 14,
 			spacing: 10,
 			z_index: 1031,
 			delay: 5000,
