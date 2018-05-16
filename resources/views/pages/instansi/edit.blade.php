@@ -135,7 +135,7 @@
                             <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        {{Form::text('email','dinaskotamojokerto@gmail.com',['class'=>'form-control', 'required'])}}
+                                        {{Form::email('email','dinaskotamojokerto@gmail.com',['class'=>'form-control', 'required'])}}
                                     </div>
                                 </div>
                             </div>
