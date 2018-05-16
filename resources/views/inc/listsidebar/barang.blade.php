@@ -36,12 +36,12 @@
         @endif
             <a href="/barang/kategori">Kategori Barang</a>
         </li>
-        @if($indicator == 'lokasi')
+        {{-- @if($indicator == 'lokasi')
             <li class="active">
         @else
             <li>
         @endif
             <a href="/barang/lokasi">Lokasi Barang</a>
-        </li>
+        </li> --}}
     </ul>
 </li>

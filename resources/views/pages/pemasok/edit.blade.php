@@ -12,7 +12,7 @@
                     </h2>
                     <ul class="header-dropdown m-t--5">
                       <li>
-                          <a href="/Pemasok/Pemasok">
+                          <a href="/pemasok">
                               <button type="button" class="btn btn-danger waves-effect">Batal</button>
                           </a>
                       </li>

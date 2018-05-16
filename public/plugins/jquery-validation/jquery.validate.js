@@ -350,21 +350,21 @@ $.extend( $.validator, {
 
 	messages: {
 		required: "Bagian ini harus diisi.",
-		remote: "Please fix this field.",
+		remote: "Harap benahi kolom ini.",
 		email: "Harap masukkan alamat email yang valid.",
-		url: "Please enter a valid URL.",
+		url: "Harap masukan URL yang benar.",
 		date: "Harap masukkan tanggal yang valid.",
 		dateISO: "Harap masukkan tanggal yang valid (ISO).",
 		number: "Harap masukkan angka yang valid.",
 		digits: "Harap masukkan hanya digit.",
 		equalTo: "Harap masukkan  yang sama.",
-		maxlength: $.validator.format( "Please enter no more than {0} characters." ),
-		minlength: $.validator.format( "Please enter at least {0} characters." ),
-		rangelength: $.validator.format( "Please enter a value between {0} and {1} characters long." ),
-		range: $.validator.format( "Please enter a value between {0} and {1}." ),
-		max: $.validator.format( "Please enter a value less than or equal to {0}." ),
-		min: $.validator.format( "Please enter a value greater than or equal to {0}." ),
-		step: $.validator.format( "Please enter a multiple of {0}." )
+		maxlength: $.validator.format( "Harap masukkan masksimal {0} karakter." ),
+		minlength: $.validator.format( "Harap masukkan minimal {0} karakter." ),
+		rangelength: $.validator.format( "Harap masukkan nilai diantara {0} dan {1}." ),
+		range: $.validator.format( "Harap masukan nilai diantara {0} and {1}." ),
+		max: $.validator.format( "Harap masukkan nilai kurang dari atau sama dengan {0}." ),
+		min: $.validator.format( "Harap masukkan nilai lebih dari atau sama dengan {0}." ),
+		step: $.validator.format( "Harap masukkan nilai kelipatan dari {0}." )
 	},
 
 	autoCreateRanges: false,
